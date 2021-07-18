@@ -1,4 +1,10 @@
-.tableMSP{
+$colorBackgroundMain:  #08081c;
+$colorBackgroundMenu: #1b1e3f;
+$colorP: #6434b6;
+#background{
+    background-color: $colorBackgroundMain;
+}
+    .tableMSP{
     height: 80px;
     // background-color: #f7f7f7;
     box-sizing: border-box;

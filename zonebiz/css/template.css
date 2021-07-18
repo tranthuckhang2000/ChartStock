@@ -77,7 +77,7 @@ button.btn-secondary:hover{
 }
 
 .top-bar{
-	background: #1273eb;
+	background: #08091d;
 	padding: 4px 0px;
 }
 .social-media ul{
@@ -114,11 +114,11 @@ button.btn-secondary:hover{
 }
 
 .top-nav{
-	background-color: #ffffff !important;
+	background-color: #272837 !important;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link{
 	padding: 10px 15px;
-	color: #323232;
+	color: #ffffff;
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -130,17 +130,17 @@ button.btn-secondary:hover{
 	margin-left: 5px;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link:hover{
-	color: #1273eb;
+	color: #9a4eeb;
 	border-radius: 4.8px;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active{
-	color: #1273eb;
+	color: #9a4eeb;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active:before{
 	content: "";
 	position: absolute;
 	width: 40px;
-	background: #1273eb;
+	background: #9a4eeb;
 	height: 5px;
 	top: 0px;
 	left: 0px;
@@ -150,7 +150,7 @@ button.btn-secondary:hover{
 	content: "";
 	position: absolute;
 	width: 40px;
-	background: #1273eb;
+	background: #9a4eeb;
 	height: 5px;
 	bottom: 0px;
 	right: 0px;
@@ -597,7 +597,7 @@ button.btn-secondary:hover{
 
 .touch-line{
 	padding: 40px 0px;
-	background: #1273eb;
+	background: #08081c;
 	position: relative;
 	margin-top: 90px;
 }
@@ -1083,7 +1083,7 @@ footer p {
 	text-align: center;
 }
 .breadcrumb-main .breadcrumb{
-	background: #1273eb;
+	background: #272838;
 	border-radius: 100px 100px 0px 0px;
 	display: block;
 }
@@ -1092,7 +1092,7 @@ footer p {
 	font-size: 15px;
 }
 .breadcrumb-main .breadcrumb li{
-	color: #323232;
+	color: #9353f2;
 	display: inline-block;
 	font-size: 15px;
 }
