@@ -1,0 +1,38 @@
+.tableMSP{
+    height: 80px;
+    // background-color: #f7f7f7;
+    box-sizing: border-box;
+    boder: 1px solid blue;
+    .tableAbove{
+        // background-color: green;
+        height: 50%;
+        p{
+            font-size:10px;
+            margin-left: 7px;
+        }       
+    }
+    .tableUnder{
+        border-box: content-box;
+        // justify-content: center
+        align-items: flex-end;
+        display: flex;
+        margin: 0 auto;
+        height: 50%;
+
+        // justify-content: space-between;
+        .value{
+            font-size: 13px;
+            width: auto;
+            margin-bottom: 4px;
+            margin-left: 7px;
+            margin-right: 3px;
+
+        }
+        p{
+            width: auto;
+            margin-bottom: 8px;
+
+        }
+        // border: 1px solid black;
+    }
+}

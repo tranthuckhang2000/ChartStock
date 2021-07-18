@@ -1513,6 +1513,7 @@ span.flatpickr-weekday {
 }
 
 .s002 {
+  margin-bottom: 1%;
   min-height: 90vh;
   display: -ms-flexbox;
   display: flex;
