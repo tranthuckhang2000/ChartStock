@@ -49,3 +49,34 @@ $colorContent: #ffffff;
         // border: 1px solid black;
     }
 }
+
+.nav-link{
+    ul{
+        text-align: center;
+        // background-color: #1fe125;
+        justify-content:center;
+        .icon-format{
+            background-color: $colorP;
+            border-radius: 50%;
+            height: 70px;
+            width: 70px;
+            justify-content: center;
+            margin-bottom: 5px;
+            i{
+                color: #ffff;
+                    margin: auto;
+                    margin-top: 25%
+            }
+
+        }
+        list-style: none;
+
+    }
+}
+
+.menu-format{
+    color: #ffffff;
+    ul{
+        list-style: none;
+    }
+}

@@ -50,4 +50,37 @@
   width: auto;
   margin-bottom: 8px;
 }
+
+.nav-link ul {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.nav-link ul .icon-format {
+  background-color: #6434b6;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5px;
+}
+
+.nav-link ul .icon-format i {
+  color: #ffff;
+  margin: auto;
+  margin-top: 25%;
+}
+
+.menu-format {
+  color: #ffffff;
+}
+
+.menu-format ul {
+  list-style: none;
+}
 /*# sourceMappingURL=style.css.map */
