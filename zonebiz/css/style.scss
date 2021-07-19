@@ -1,6 +1,13 @@
-$colorBackgroundMain:  #08081c;
-$colorBackgroundMenu: #1b1e3f;
+$colorBackgroundMain:  #1b1c3e;
+$colorBackgroundMenu: #08091d;
 $colorP: #6434b6;
+$colorContent: #ffffff;
+#colorContent{
+    color: $colorContent;
+}
+#blackContent{
+    color:#1b1c3e;
+}    
 #background{
     background-color: $colorBackgroundMain;
 }

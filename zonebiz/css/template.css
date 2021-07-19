@@ -44,16 +44,16 @@ button.btn-primary:hover{
 }
 
 a.btn-secondary{
-	background-color: #1273eb;
-	border-color: #1273eb;
+	background-color: #6434b6;
+	border-color: #6434b6;
 }
 a.btn-secondary:hover{
 	background-color: #323232;
 	border-color: #323232;
 }
 button.btn-secondary{
-	background-color: #1273eb;
-	border-color: #1273eb;
+	background-color: #6434b6;
+	border-color: #6434b6;
 }
 button.btn-secondary:hover{
 	background-color: #323232;
@@ -136,27 +136,27 @@ button.btn-secondary:hover{
 .navbar-expand-lg.top-nav .navbar-nav .nav-link.active{
 	color: #9a4eeb;
 }
-.navbar-expand-lg.top-nav .navbar-nav .nav-link.active:before{
+/* .navbar-expand-lg.top-nav .navbar-nav .nav-link.active:before{
 	content: "";
 	position: absolute;
 	width: 40px;
-	background: #9a4eeb;
+	background: red;
 	height: 5px;
 	top: 0px;
 	left: 0px;
 	border-radius: 6px;
-}
-.navbar-expand-lg.top-nav .navbar-nav .nav-link.active:after{
+} */
+/* .navbar-expand-lg.top-nav .navbar-nav .nav-link.active:after{
 	content: "";
 	position: absolute;
 	width: 40px;
-	background: #9a4eeb;
+	background: rgb(228, 151, 9);
 	height: 5px;
 	bottom: 0px;
 	right: 0px;
 	border-radius: 6px;
-}
-.navbar-expand-lg.top-nav .navbar-nav .nav-link:before{
+} */
+/* .navbar-expand-lg.top-nav .navbar-nav .nav-link:before{
 	content: "";
 	position: absolute;
 	width: 0px;
@@ -170,8 +170,8 @@ button.btn-secondary:hover{
 	-o-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	transition: all 500ms ease;
-}
-.navbar-expand-lg.top-nav .navbar-nav .nav-link:after{
+} */
+/* .navbar-expand-lg.top-nav .navbar-nav .nav-link:after{
 	content: "";
 	position: absolute;
 	width: 0px;
@@ -185,7 +185,7 @@ button.btn-secondary:hover{
 	-o-transition: all 500ms ease;
 	-moz-transition: all 500ms ease;
 	transition: all 500ms ease;
-}
+} */
 .navbar-expand-lg.top-nav .navbar-nav .nav-link:hover:before{
 	width: 40px;
 	-webkit-transition: all 500ms ease;
@@ -316,7 +316,7 @@ button.btn-secondary:hover{
 }
 .services-bar{
 	padding: 20px 0px 30px 0px;
-	background: url(../images/dott.jpg);
+	/* background: url(../images/dott.jpg); */
 }
 .services-bar h1{
 	font-weight: 600;
@@ -621,13 +621,14 @@ button.btn-secondary:hover{
 	font-size: 15px;
 }
 .touch-line a.btn-secondary{
-	background-color: #ffffff;
-	border-color: #ffffff;
-	color: #1273eb;
+	background-color: #6434b6;
+	/* border-color: #ffffff; */
+	color: #ffffff;
 }
 .footer { 
 	width:100%; 
-	background: url(../images/footer-bg.jpg) no-repeat center;
+	/* background: url(../images/footer-bg.jpg) no-repeat center; */
+	background-color: #101225;
 	background-size: cover;
 	min-height:250px; 
 	padding:10px 0px 25px 0px;

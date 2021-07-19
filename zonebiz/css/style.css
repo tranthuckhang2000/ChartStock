@@ -1,5 +1,13 @@
+#colorContent {
+  color: #ffffff;
+}
+
+#blackContent {
+  color: #1b1c3e;
+}
+
 #background {
-  background-color: #08081c;
+  background-color: #1b1c3e;
 }
 
 .tableMSP {
