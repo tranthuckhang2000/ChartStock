@@ -7,15 +7,15 @@ const data = {
         {
             label: 'Khối lượng giao dịch',
             data: [12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5],
-            backgroundColor: '#ffb0c1',
+            backgroundColor: '#f314db',
             stack: 'combined',
             type: 'bar'
         },
         {
             label: 'Giá',
             data: [12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5, 2, 3, 12, 19, 3, 5],
-            backgroundColor: '#9acef3',
-            borderColor: '#9acef3',
+            backgroundColor: '#dcbb30',
+            borderColor: '#dcbb30',
             stack: 'combined'
         }
     ]

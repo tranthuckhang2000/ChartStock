@@ -111,6 +111,7 @@ button.btn-secondary:hover{
 .wrapper-main{
 	position: relative;
 	overflow: hidden;
+	/* background-color: #08091d; */
 }
 
 .top-nav{
@@ -328,7 +329,7 @@ button.btn-secondary:hover{
 	box-shadow: 3px 5px 15px rgba(0,0,0, .15);
 	border: none;
 }
-.services-bar .card h4.card-header{
+.services-bar .card h6.card-header{
 	background-color: transparent;
 	color: #1273eb;
 	font-size: 18px;
