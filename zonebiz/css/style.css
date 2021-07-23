@@ -167,4 +167,99 @@
 .itemMSP p {
   font-size: 12px;
 }
+
+.basic-1 {
+  background-color: #131e2a;
+  padding: 10px;
+}
+
+.basic-1 .basic-2 {
+  background-color: #222f41;
+  padding-bottom: 3px;
+}
+
+.basic-1 .basic-2 h3 {
+  margin-left: 20px;
+}
+
+.basic-1 .basic-2 .table-basic {
+  padding: 0 3px;
+}
+
+.basic-1 .basic-2 .table-basic .table {
+  background-color: #131e2a;
+  padding: 30px 30px 15px 30px;
+}
+
+.basic-1 .basic-2 .table-basic .table .item-table {
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 20px;
+  border-bottom: 1px dotted;
+}
+
+.basic-1 .basic-2 .table-basic .table .item-table h6 {
+  margin-left: 10px;
+}
+
+.basic-1 .basic-2 .table-basic .table .item-table p {
+  margin-right: 10px;
+}
+
+.basic-1 .basic-2 .table-basic .table .btn-format button {
+  padding: 10px 20px;
+  background-color: #FFFFFF;
+  border: 5px solid #6434b6;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.basic-1 .basic-2 .table-basic .table .btn-format button:visited {
+  color: #fff;
+  background-color: #6434b6;
+}
+
+.basic-1 .basic-2 .table-basic .table .btn-format button:focus {
+  color: #fff;
+  background-color: #6434b6;
+}
+
+.basic-1 .basic-2 .table-basic .table .chart-format {
+  top: 10px;
+  position: relative;
+  height: 400px;
+  width: 800px;
+  background-color: #FFFFFF;
+}
+
+.basic-1 .basic-2 .table-basic .table .chart-format .chart-1 {
+  width: 800px;
+  position: absolute;
+  top: 30px;
+  display: none;
+  left: 100px;
+}
+
+.basic-1 .basic-2 .table-basic .table .chart-format .chart-2 {
+  top: 30px;
+  left: 100px;
+}
+
+.basic-1 .basic-2 .table-basic .table .chart-format .chart-3 {
+  display: none;
+  left: 100px;
+}
+
+.basic-1 .basic-2 .table-chart {
+  padding: 30px 0;
+  background-color: #131e2a;
+  width: 514px;
+  margin-left: 3px;
+}
 /*# sourceMappingURL=style.css.map */
