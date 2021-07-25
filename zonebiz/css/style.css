@@ -1,8 +1,22 @@
 @media screen and (max-width: 46.1875em) {
-  .format-name
-h1 {
+  .format-name h1 {
     color: red;
-    font-size: 15px;
+    font-size: 26px;
+  }
+  .frame-layout-1 {
+    margin-top: 10%;
+    background-color: #131e2a;
+  }
+  .frame-layout-1 .frame-layout-2 {
+    background-color: #222f41;
+  }
+  .frame-layout-1 .frame-layout-2 h3 {
+    margin-left: -0.4em;
+    font-size: 1.3em;
+    color: red;
+  }
+  .frame-layout-1 .frame-layout-2 .frame-main {
+    background-color: #131e2a;
   }
 }
 
@@ -221,7 +235,7 @@ h1 {
 
 .basic-1 .basic-2 .table-basic .table .btn-format button {
   padding: 10px 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 5px solid #6434b6;
   border-radius: 5px;
   margin-right: 10px;
@@ -243,7 +257,7 @@ h1 {
   position: relative;
   height: 400px;
   width: 800px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .basic-1 .basic-2 .table-basic .table .chart-format .chart-1 {
@@ -269,5 +283,24 @@ h1 {
   background-color: #131e2a;
   width: 514px;
   margin-left: 3px;
+}
+
+.frame-layout-1 {
+  margin-top: 10%;
+  background-color: #131e2a;
+}
+
+.frame-layout-1 .frame-layout-2 {
+  background-color: #222f41;
+}
+
+.frame-layout-1 .frame-layout-2 h3 {
+  padding: 0.3em 0;
+  margin-left: 2em;
+  font-size: em;
+}
+
+.frame-layout-1 .frame-layout-2 .frame-main {
+  background-color: #131e2a;
 }
 /*# sourceMappingURL=style.css.map */

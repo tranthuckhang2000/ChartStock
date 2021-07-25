@@ -177,10 +177,8 @@
 				</div>
 				<div class="row">
 					<div style="display: flex; font-size: 20px;" class="col-lg-12 format-name">
-						<h1>Công ty cổ phần tập đoàn Hoà Phát&nbsp;</h1>
-						<h1>(</h1>
-						<h1>HOSE</h1>
-						<h1>)</h1>
+						<h1>Công ty cổ phần tập đoàn Hoà Phát (HOSE)</h1>
+
 					</div>
 
 				</div>
@@ -190,7 +188,9 @@
 							<div class="frame-layout-2">
 								<h3>Mức độ ảnh hưởng đến chỉ số</h3>
 								<div class="frame-main">
-									
+									<div>
+										<div style="height: 300px; color: black" id="chart111"></div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -421,6 +421,65 @@
 		src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
 	<script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+
+
+	// Chart mức độ ảnh hưởng đến chỉ số
+	<script>
+		var options = {
+			series: [{
+				name: 'Mức đóng góp tăng',
+				data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+			}, {
+
+				name: 'Mức đóng góp giảm',
+				data: [-35, -41, -36, -26, -45, -48, -52, -53, -41]
+			}],
+			chart: {
+				type: 'bar',
+				height: 350
+			},
+			plotOptions: {
+				bar: {
+					horizontal: false,
+					columnWidth: '55%',
+					endingShape: 'rounded'
+				},
+			},
+			dataLabels: {
+				enabled: false
+			},
+			stroke: {
+				show: true,
+				width: 2,
+				colors: ['transparent']
+			},
+			xaxis: {
+				categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+			},
+			yaxis: {
+				title: {
+					text: '$ (thousands)'
+				}
+			},
+			fill: {
+				opacity: 1
+			},
+			tooltip: {
+				y: {
+					formatter: function (val) {
+						return "$ " + val + " thousands"
+					}
+				}
+			}
+		};
+
+		var chart = new ApexCharts(document.querySelector("#chart111"), options);
+		chart.render();
+
+
+	</script>
+
+
 
 
 	<!-- chart gia va khoi luong giao dich-->
