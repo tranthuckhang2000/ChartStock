@@ -1,3 +1,11 @@
+@media screen and (max-width: 46.1875em) {
+  .format-name
+h1 {
+    color: red;
+    font-size: 15px;
+  }
+}
+
 #colorContent {
   color: #ffffff;
 }
