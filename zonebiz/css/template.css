@@ -368,23 +368,23 @@ button.btn-secondary:hover{
 	text-transform: capitalize;
 }
 .about-main ul{
-	padding-left: 20px;
+	/* padding-left: 20px; */
 }
 .about-main ul li{
-	position: relative;
+	/* position: relative;
 	font-weight: 300;
 	list-style: none;
 	line-height: 29px;
-	font-size: 15px;
+	font-size: 15px; */
 }
 .about-main ul li:before{
-	content: "\f0da";
+	/* content: "\f0da";
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;	
 	position: absolute;
 	left: -15px;
 	top: 0px;
-	color: #1273eb;
+	color: #1273eb; */
 }
 .card-img img{
 	width: 100%;
