@@ -528,11 +528,11 @@ $colorContent: #ffffff;
 
           .description-left {
             // text-align: left;
-            font-size: 10px;
+            font-size: 5px;
             color: #ff0000;
             position: absolute;
-            // left: 313px;
-            top: 100px;
+            left: 32px;
+            top: 131px;
 
             .list-items {
               display: flex;
@@ -549,10 +549,10 @@ $colorContent: #ffffff;
 
           .description-right {
             // color: white;
-            font-size: 10px;
+            font-size: 5px;
             position: absolute;
-            left: 313px;
-            bottom: 126px;
+            left: 301px;
+            bottom: 147px;
 
             .list-items {
               display: flex;

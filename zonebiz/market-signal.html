@@ -263,11 +263,13 @@
 													<div class="description-left">
 														<div class="list-items">
 															<ul>
-																<li>12%</li>
-																<li>12%</li>
-																<li>12%</li>
-																<li>12%</li>
-																<li>12%</li>
+																<li>(12.00%)</li>
+																<li>(12.00%)</li>
+																<li>(12.00%)</li>
+																<li>(12.00%)</li>
+																<li>(12.00%)</li>
+
+
 															</ul>
 															<ul>
 																<li>OGG</li>
@@ -294,11 +296,13 @@
 																<li>VIX</li>
 															</ul>
 															<ul>
-																<li>12%</li>
-																<li>12%</li>
-																<li>12%</li>
-																<li>12%</li>
-																<li>12%</li>
+																<li>(12.00%)</li>
+																<li>(12.00%)</li>
+																<li>(12.00%)</li>
+																<li>(12.00%)</li>
+																<li>(12.00%)</li>
+
+
 															</ul>
 														</div>
 
@@ -307,7 +311,7 @@
 
 
 												<div class="col-sm-12">
-													<div id="chart555"></div>
+													<div style="height: 100px;" id="chart555"></div>
 												</div>
 												<div class="col-sm-12">
 													<div id="chart666"></div>
@@ -727,8 +731,9 @@
 
 		// Chart circle
 		var options = {
-			series: [44, 55, 13, 33], // So lieu của chart
-			labels: ['Apple', 'Mango', 'Orange', 'Watermelon']  // label mo ta
+			series: [90, 10], // So lieu của chart
+			labels: ['Cổ phiếu trong xu hướng tăng', 'Cổ phiếu trong xu hướng giảm'],
+			colors:['#02af50', '#ff0000']  // label mo ta
 			,
 			chart: {
 				type: 'donut',
@@ -780,7 +785,7 @@
 
 			],
 			chart: {
-				height: 350,
+				height: 250,
 				type: 'line',
 				dropShadow: {
 					enabled: true,
@@ -860,19 +865,6 @@
 	</script>
 
 
-   <!-- handle dropdown -->
-    <script>
-            $(document).ready(function(){
-			$('#bt-dropdown-2').click(function(){
-				$('#menu-dropdown-2').toggle();
-			});
-
-			$('#bt-dropdown-1').click(function(){
-				$('#menu-dropdown-1').toggle();
-			});
-		
-		})	
-	</script>
 
 <script>
 	var options = {
@@ -888,7 +880,7 @@
 
 		],
 		chart: {
-			height: 350,
+			height: 250,
 			type: 'line',
 			dropShadow: {
 				enabled: true,
@@ -967,7 +959,19 @@
 
 </script>
 
+   <!-- handle dropdown -->
+   <script>
+	$(document).ready(function(){
+	$('#bt-dropdown-2').click(function(){
+		$('#menu-dropdown-2').toggle();
+	});
 
+	$('#bt-dropdown-1').click(function(){
+		$('#menu-dropdown-1').toggle();
+	});
+
+})	
+</script>
 
 
 </body>
