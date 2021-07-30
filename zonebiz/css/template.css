@@ -2,9 +2,7 @@
  *  Zonebiz - Business Consulting Bootstrap4 Responsive Template
  */
 
- 
-@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
- 
+  
 body {
   padding: 0px;
   font-family: 'Work Sans', sans-serif;
@@ -600,7 +598,7 @@ button.btn-secondary:hover{
 	padding: 40px 0px;
 	background: #08081c;
 	position: relative;
-	margin-top: 90px;
+	/* margin-top: 90px; */
 }
 .touch-line:before{
 	position: absolute;
@@ -615,7 +613,7 @@ button.btn-secondary:hover{
 	height: 50px;
 	background-size: cover;
 	background-position: 50% 50%;
-	background-image: url(../images/bg-bdr2.png);
+	/* background-image: url(../images/bg-bdr2.png); */
 }
 .touch-line p{
 	color: #ffffff;

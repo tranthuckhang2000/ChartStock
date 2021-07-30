@@ -525,4 +525,322 @@ body {
     background-color: #ffffff;
   }
 }
+
+.main-web {
+  z-index: 10;
+}
+
+.login-root {
+  height: 700px;
+  top: 200px;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  /* min-height: 50vh; */
+  overflow: hidden;
+}
+
+.login-root h1 {
+  color: #ffffff;
+}
+
+.login-root .loginbackground {
+  min-height: 692px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.login-root .flex-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.login-root .align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-root .center-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-root .box-root {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.login-root .flex-direction--column {
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.login-root .loginbackground-gridContainer {
+  display: -ms-grid;
+  display: grid;
+  /* -ms-grid-columns: [start] 1fr [left-gutter] (86.6px)[16] [left-gutter] 1fr [end];
+      grid-template-columns: [start] 1fr [left-gutter] repeat(16,86.6px) [left-gutter] 1fr [end];
+      -ms-grid-rows: [top] 1fr [top-gutter] (64px)[8] [bottom-gutter] 1fr [bottom];
+      grid-template-rows: [top] 1fr [top-gutter] repeat(8,64px) [bottom-gutter] 1fr [bottom];
+      justify-content: center;
+      margin: 0 -2%;
+      transform: rotate(-12deg) skew(-12deg); */
+}
+
+.login-root .box-divider--light-all-2 {
+  -webkit-box-shadow: inset 0 0 0 2px #e3e8ee;
+          box-shadow: inset 0 0 0 2px #e3e8ee;
+}
+
+.login-root .box-background--blue {
+  background-color: #5469d4;
+}
+
+.login-root .box-background--white {
+  background-color: #ffffff;
+}
+
+.login-root .box-background--blue800 {
+  background-color: #212d63;
+}
+
+.login-root .box-background--gray100 {
+  background-color: #e3e8ee;
+}
+
+.login-root .box-background--cyan200 {
+  background-color: #7fd3ed;
+}
+
+.login-root .padding-top--64 {
+  padding-top: 64px;
+}
+
+.login-root .padding-top--24 {
+  padding-top: 24px;
+}
+
+.login-root .padding-top--48 {
+  padding-top: 48px;
+}
+
+.login-root .padding-bottom--24 {
+  padding-bottom: 24px;
+}
+
+.login-root .padding-horizontal--48 {
+  padding: 48px;
+}
+
+.login-root .padding-bottom--15 {
+  padding-bottom: 15px;
+}
+
+.login-root .flex-justifyContent--center {
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.login-root .formbg {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 448px;
+  background: white;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+          box-shadow: rgba(60, 66, 87, 0.12) 0px 7px 14px 0px, rgba(0, 0, 0, 0.12) 0px 3px 6px 0px;
+}
+
+.login-root span {
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a1f36;
+}
+
+.login-root label {
+  margin-bottom: 10px;
+}
+
+.login-root .reset-pass a, .login-root label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+}
+
+.login-root .reset-pass > a {
+  text-align: right;
+  margin-bottom: 10px;
+  color: #6434b6;
+}
+
+.login-root .grid--50-50 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-root .field input {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  width: 100%;
+  min-height: 44px;
+  border: unset;
+  border-radius: 4px;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+          box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.16) 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+.login-root input[type="submit"] {
+  background-color: #5469d4;
+  -webkit-box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, #5469d4 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+          box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, #5469d4 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-root .field-checkbox input {
+  width: 20px;
+  height: 15px;
+  margin-right: 5px;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  min-height: unset;
+}
+
+.login-root .field-checkbox label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+.login-root a.ssolink {
+  display: block;
+  text-align: center;
+  font-weight: 600;
+}
+
+.login-root .footer-link span {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.login-root .listing a {
+  color: #697386;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.login-root .animationRightLeft {
+  -webkit-animation: animationRightLeft 2s ease-in-out infinite;
+          animation: animationRightLeft 2s ease-in-out infinite;
+}
+
+.login-root .animationLeftRight {
+  -webkit-animation: animationLeftRight 2s ease-in-out infinite;
+          animation: animationLeftRight 2s ease-in-out infinite;
+}
+
+.login-root .tans3s {
+  -webkit-animation: animationLeftRight 3s ease-in-out infinite;
+          animation: animationLeftRight 3s ease-in-out infinite;
+}
+
+.login-root .tans4s {
+  -webkit-animation: animationLeftRight 4s ease-in-out infinite;
+          animation: animationLeftRight 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes animationLeftRight {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes animationLeftRight {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@-webkit-keyframes animationRightLeft {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+@keyframes animationRightLeft {
+  0% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  50% {
+    -webkit-transform: translateX(-1000px);
+            transform: translateX(-1000px);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+#login-form {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
