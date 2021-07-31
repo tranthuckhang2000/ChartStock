@@ -22,7 +22,7 @@
 
 	<link href="css/search.css" rel="stylesheet">
 
-
+	
 
 
 </head>
@@ -59,7 +59,6 @@
 			</div>
 		</div>
 
-
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
 			<div class="container">
@@ -77,7 +76,7 @@
 							<!-- <a class="nav-link" href="index.html">Trang Chủ</a> -->
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="teachnique-search.html">
+							<a class="nav-link active" href="search.html">
 								<ul>
 									<li>
 										<div class="icon-format">
@@ -94,7 +93,7 @@
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="basic-search.html">
+							<a class="nav-link" href="services.html">
 								<ul>
 									<li>
 										<div class="icon-format">
@@ -112,7 +111,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link active" href="statistical.html">
+							<a class="nav-link" href="services.html">
 								<ul>
 									<li>
 										<div class="icon-format">
@@ -129,7 +128,7 @@
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="market-signal.html">
+							<a class="nav-link" href="services.html">
 								<ul>
 									<li>
 										<div class="icon-format">
@@ -149,7 +148,6 @@
 				</div>
 			</div>
 		</nav>
-
 
 		<!-- full Title -->
 		<!-- <div class="full-title">
@@ -187,19 +185,7 @@
 					<div class="col-sm-12">
 						<div class="frame-layout-1">
 							<div class="frame-layout-2">
-								<div class="title">
-									<h3 style="font-weight: bold;">Mức độ ảnh hưởng đến chỉ số</h3>
-									<div class="note">
-										<i id="i-chi-so" class="fas fa-exclamation"></i>
-										<div id="note-chi-so" class="note-detail-2">
-											<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
-												Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
-												Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
-												hiện xu hướng tăng trưởng.
-											</p>
-										</div>
-									</div>
-								</div>
+								<h3 style="font-weight: bold;">Mức độ ảnh hưởng đến chỉ số</h3>
 								<div class="frame-main">
 									<div>
 										<div style="height: 300px; color: black" id="chart111"></div>
@@ -211,18 +197,8 @@
 					<div class="col-sm-12">
 						<div class="frame-layout-1">
 							<div class="frame-layout-2">
-								<div class="title">
-									<h3 style="font-weight: bold;">Thanh khoảng so với phiên trước</h3>
-									<div class="note">
-										<i id="i-thanh-khoang" class="fas fa-exclamation"></i>
-										<div id="note-thanh-khoang" class="note-detail-2">
-											<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
-												Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
-												Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể hiện xu hướng tăng trưởng.												
-											</p>
-										</div>
-									</div>
-								</div>								<div class="frame-main">
+								<h3>Thanh khoảng so với phiên trước</h3>
+								<div class="frame-main">
 									<div>
 										<div style="height: 300px; color: black" id="chart222"></div>
 									</div>
@@ -237,7 +213,7 @@
 						<div class="frame-layout-1">
 							<div class="frame-layout-2">
 								<h3>Giao dịch khối ngoại</h3>
-								<div class="frame-main">
+								<div class="frame-main">								
 									<div class="row">
 										<div class="col-sm-6 format-title">
 											<h5>Mua</h5>
@@ -259,7 +235,7 @@
 								<div class="frame-main">
 									<div class="row">
 										<div class="col-sm-6 format-title">
-											<h5>Mua</h5>
+											<h5 >Mua</h5>
 											<div style="height: 300px; color: black" id="chart555"></div>
 										</div>
 										<div class="col-sm-6 format-title">
@@ -391,7 +367,7 @@
 			}, {
 
 				name: 'Mức đóng góp giảm',
-				data: [-35, -41, -36, -26, -45, -48, -52, -35, -41, -36, -26, -45, -48, -52],
+				data: [ -35, -41, -36, -26, -45, -48, -52, -35, -41, -36, -26, -45, -48, -52],
 				color: '#FA5882'
 			}],
 			chart: {
@@ -408,7 +384,7 @@
 			dataLabels: {
 				enabled: false
 			},
-
+			
 			stroke: {
 				show: true,
 				width: 2,
@@ -417,30 +393,30 @@
 			xaxis: {
 				categories: ['HOSE', 'AHR', 'HAGL', 'MMM', 'VVV', 'JJJ', 'AUG'],
 				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
+                    style: {
+                        colors: 'white',
+                    }
+          },
 			},
 			yaxis: {
 				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
+                      style: {
+                            colors: 'white',
+                      }
+          },
 				title: {
 					text: '$ (thousands)'
 				},
-
+			
 			},
-			legend: {
+            legend: {
 				labels: {
-					colors: 'white',
-					useSeriesColors: false
-				}
+                     colors: 'white',
+                     useSeriesColors: false
+                }
 
 			},
-
+			
 
 
 			fill: {
@@ -460,269 +436,256 @@
 
 
 	</script>
-
-	<!-- chart Thanh khoang so voi phien truoc -->
+     
+     <!-- chart Thanh khoang so voi phien truoc -->
 	<script>
+	      
+		  var options = {
+          series: [{
+          name: 'Name1',
+          data: [11, 42, 55, 42],
 
-		var options = {
-			series: [{
-				name: 'Name1',
-				data: [11, 42, 55, 42],
+        }, {
+          name: 'Name2',
+          data: [11, 32, 45, 32, 34, 52, 41],
+		  color: '#BDBDBD'
 
-			}, {
-				name: 'Name2',
-				data: [11, 32, 45, 32, 34, 52, 41],
-				color: '#BDBDBD'
+        }],
+          chart: {
+          height: 350,
+          type: 'area'
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          curve: 'smooth'
+        },
+        xaxis: {
+          type: 'datetime',
+          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"],
+		  labels: {
+            style: {
+              colors: 'white',
+            }
+          },
+        },
+		yaxis: {
+			labels: {
+            style: {
+              colors: 'white',
+            }
+          },
+		},
+		legend: {
+		  labels: {
+             colors: 'white',
+             useSeriesColors: false
+          }
+		},
+        tooltip: {
+          x: {
+            format: 'dd/MM/yy HH:mm'
+          },
+        },
+        };
 
-			}],
-			chart: {
-				height: 350,
-				type: 'area'
-			},
-			dataLabels: {
-				enabled: false
-			},
-			stroke: {
-				curve: 'smooth'
-			},
-			xaxis: {
-				type: 'datetime',
-				categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"],
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-			},
-			yaxis: {
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-			},
-			legend: {
-				labels: {
-					colors: 'white',
-					useSeriesColors: false
-				}
-			},
-			tooltip: {
-				x: {
-					format: 'dd/MM/yy HH:mm'
-				},
-			},
-		};
-
-		var chart = new ApexCharts(document.querySelector("#chart222"), options);
-		chart.render();
-
+        var chart = new ApexCharts(document.querySelector("#chart222"), options);
+        chart.render();
+      
 	</script>
-
-
-
-	<!-- Giao dich khoi ngoai ban -->
-	<script>
-		var options = {
-			series: [{
-				data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
-				//   color: '#FF0040'
-			}],
-			chart: {
-				type: 'bar',
-				height: 350
-			},
-			plotOptions: {
-				bar: {
-					borderRadius: 4,
-					horizontal: true,
-				}
-			},
-			dataLabels: {
-				enabled: false
-			},
-			xaxis: {
-				categories: ['AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA',
-					'AAA', 'AAA', 'AAA'
-				],
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-
-			}
-			,
-			yaxis: {
-				reversed: true,
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-			}
-		};
-
-		var chart = new ApexCharts(document.querySelector("#chart333"), options);
-		chart.render();
-
-	</script>
-
-
-	<!-- Giao dich khoi ngoai ban -->
-	<script>
-		var options = {
-			series: [{
-				data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
-				color: '#FF0040'
-			}],
-			chart: {
-				type: 'bar',
-				height: 350
-			},
-			plotOptions: {
-				bar: {
-					borderRadius: 4,
-					horizontal: true,
-				}
-			},
-			dataLabels: {
-				enabled: false
-			},
-			xaxis: {
-				categories: ['AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA',
-					'AAA', 'AAA', 'AAA'
-				],
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-
-			}
-			,
-			yaxis: {
-				//    reversed: true,
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-			}
-		};
-
-		var chart = new ApexCharts(document.querySelector("#chart444"), options);
-		chart.render();
-
-	</script>
-
-
-	<!-- Giao dich tu doanh mua -->
-	<script>
-		var options = {
-			series: [{
-				data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
-				//   color: '#FF0040'
-			}],
-			chart: {
-				type: 'bar',
-				height: 350
-			},
-			plotOptions: {
-				bar: {
-					borderRadius: 4,
-					horizontal: true,
-				}
-			},
-			dataLabels: {
-				enabled: false
-			},
-			xaxis: {
-				categories: ['AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA',
-					'AAA', 'AAA', 'AAA'
-				],
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-
-			}
-			,
-			yaxis: {
-				reversed: true,
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-			}
-		};
-
-		var chart = new ApexCharts(document.querySelector("#chart555"), options);
-		chart.render();
-
-	</script>
-
-	<!-- Giao dich tu doanh ban -->
-	<script>
-		var options = {
-			series: [{
-				data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
-				color: '#FF0040'
-			}],
-			chart: {
-				type: 'bar',
-				height: 350
-			},
-			plotOptions: {
-				bar: {
-					borderRadius: 4,
-					horizontal: true,
-				}
-			},
-			dataLabels: {
-				enabled: false
-			},
-			xaxis: {
-				categories: ['AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA',
-					'AAA', 'AAA', 'AAA'
-				],
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-
-			}
-			,
-			yaxis: {
-				//    reversed: true,
-				labels: {
-					style: {
-						colors: 'white',
-					}
-				},
-			}
-		};
-
-		var chart = new ApexCharts(document.querySelector("#chart666"), options);
-		chart.render();
-
-	</script>
-		<!-- note -->
-		<script>
-			$(document).ready(function () {
-				$('#i-chi-so').click(function () {
-					$('#note-chi-so').toggle();
-				})
-				$('#i-thanh-khoang').click(function () {
-					$('#note-thanh-khoang').toggle();
-				})
-
-			})
+    
 	
-		</script>
+
+	<!-- Giao dich khoi ngoai ban -->
+	<script>
+		var options = {
+		 series: [{
+		 data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
+	   //   color: '#FF0040'
+	   }],
+		 chart: {
+		 type: 'bar',
+		 height: 350
+	   },
+	   plotOptions: {
+		 bar: {
+		   borderRadius: 4,
+		   horizontal: true,
+		 }
+	   },
+	   dataLabels: {
+		 enabled: false
+	   },
+	   xaxis: {
+		 categories: ['AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA',
+		   'AAA', 'AAA', 'AAA'
+		 ],
+		 labels: {
+		   style: {
+			 colors: 'white',
+		   }
+		 },
+
+	   }
+	   ,
+	   yaxis: {
+		   reversed: true,
+		   labels: {
+		   style: {
+			 colors: 'white',
+		   }
+		 },
+	   }
+	   };
+
+	   var chart = new ApexCharts(document.querySelector("#chart333"), options);
+	   chart.render();
+	 
+   </script>
+
+
+	<!-- Giao dich khoi ngoai ban -->
+	<script>
+		var options = {
+		 series: [{
+		 data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
+	     color: '#FF0040'
+	   }],
+		 chart: {
+		 type: 'bar',
+		 height: 350
+	   },
+	   plotOptions: {
+		 bar: {
+		   borderRadius: 4,
+		   horizontal: true,
+		 }
+	   },
+	   dataLabels: {
+		 enabled: false
+	   },
+	   xaxis: {
+		 categories: ['AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA',
+		   'AAA', 'AAA', 'AAA'
+		 ],
+		 labels: {
+		   style: {
+			 colors: 'white',
+		   }
+		 },
+
+	   }
+	   ,
+	   yaxis: {
+		//    reversed: true,
+		   labels: {
+		   style: {
+			 colors: 'white',
+		   }
+		 },
+	   }
+	   };
+
+	   var chart = new ApexCharts(document.querySelector("#chart444"), options);
+	   chart.render();
+	 
+   </script>
+
+
+<!-- Giao dich tu doanh mua -->
+<script>
+	var options = {
+	 series: [{
+	 data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
+   //   color: '#FF0040'
+   }],
+	 chart: {
+	 type: 'bar',
+	 height: 350
+   },
+   plotOptions: {
+	 bar: {
+	   borderRadius: 4,
+	   horizontal: true,
+	 }
+   },
+   dataLabels: {
+	 enabled: false
+   },
+   xaxis: {
+	 categories: ['AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA',
+	   'AAA', 'AAA', 'AAA'
+	 ],
+	 labels: {
+	   style: {
+		 colors: 'white',
+	   }
+	 },
+
+   }
+   ,
+   yaxis: {
+	   reversed: true,
+	   labels: {
+	   style: {
+		 colors: 'white',
+	   }
+	 },
+   }
+   };
+
+   var chart = new ApexCharts(document.querySelector("#chart555"), options);
+   chart.render();
+ 
+</script>
+
+<!-- Giao dich tu doanh ban -->
+<script>
+	var options = {
+	 series: [{
+	 data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380],
+	 color: '#FF0040'
+   }],
+	 chart: {
+	 type: 'bar',
+	 height: 350
+   },
+   plotOptions: {
+	 bar: {
+	   borderRadius: 4,
+	   horizontal: true,
+	 }
+   },
+   dataLabels: {
+	 enabled: false
+   },
+   xaxis: {
+	 categories: ['AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA', 'AAA',
+	   'AAA', 'AAA', 'AAA'
+	 ],
+	 labels: {
+	   style: {
+		 colors: 'white',
+	   }
+	 },
+
+   }
+   ,
+   yaxis: {
+	//    reversed: true,
+	   labels: {
+	   style: {
+		 colors: 'white',
+	   }
+	 },
+   }
+   };
+
+   var chart = new ApexCharts(document.querySelector("#chart666"), options);
+   chart.render();
+ 
+</script>
 
 
 </body>
