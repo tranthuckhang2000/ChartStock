@@ -294,15 +294,106 @@ $colorContent: #ffffff;
     background-color: #222f41;
     text-align: center;
 
-    h3 {
-      font-family: Roboto;
-      font-weight: bold;
-      padding: 0.3em 0;
-      // margin-left: 2em;
-      font-size: 1.5em;
-      font-weight: 5000;
-      // color: red;
+    .title{
+      display: flex;
+      justify-content: center;
+              .note {
+        margin: auto 0;
+        padding-left: 10px;
+
+        // position: absolute;
+        i {
+          width: 25px;
+          height: 25px;
+          background-color: red;
+          padding-top: 5px;
+          border: 1px solid;
+          border-radius: 20%;
+
+        }
+
+        .note-detail {
+          background-color: #ffffff;
+          color: black;
+          text-align: left;
+          width: 300px;
+          position: absolute;
+          z-index: 50;
+          padding: 5px;
+          border: 3px solid #FA9B10;
+          border-radius: 10%;
+          display: none;
+          // top: 50px;
+          // text-transform:lowercase;
+        }
+
+        .note-detail-2 {
+          background-color: #ffffff;
+          color: black;
+          text-align: left;
+          width: 300px;
+          position: absolute;
+          z-index: 50;
+          padding: 5px;
+          border: 3px solid #FA9B10;
+          border-radius: 10%;
+          display: none;
+          right: 100px;
+          // top: 50px;
+          // text-transform:lowercase;
+        }
+      }
+
     }
+    
+
+
+      //   .note {
+      //   margin: auto 0;
+      //   padding-left: 10px;
+
+      //   // position: absolute;
+      //   i {
+      //     width: 25px;
+      //     height: 25px;
+      //     background-color: red;
+      //     padding-top: 5px;
+      //     border: 1px solid;
+      //     border-radius: 20%;
+
+      //   }
+
+      //   .note-detail {
+      //     background-color: #ffffff;
+      //     color: black;
+      //     text-align: left;
+      //     width: 300px;
+      //     position: absolute;
+      //     z-index: 50;
+      //     padding: 5px;
+      //     border: 3px solid #FA9B10;
+      //     border-radius: 10%;
+      //     display: none;
+      //     // top: 50px;
+      //     // text-transform:lowercase;
+      //   }
+
+      //   .note-detail-2 {
+      //     background-color: #ffffff;
+      //     color: black;
+      //     text-align: left;
+      //     width: 300px;
+      //     position: absolute;
+      //     z-index: 50;
+      //     padding: 5px;
+      //     border: 3px solid #FA9B10;
+      //     border-radius: 10%;
+      //     display: none;
+      //     right: 100px;
+      //     // top: 50px;
+      //     // text-transform:lowercase;
+      //   }
+      // }
 
     .frame-main {
       background-color: #131e2a;

@@ -279,12 +279,54 @@ body {
   text-align: center;
 }
 
-.frame-layout-1 .frame-layout-2 h3 {
-  font-family: Roboto;
-  font-weight: bold;
-  padding: 0.3em 0;
-  font-size: 1.5em;
-  font-weight: 5000;
+.frame-layout-1 .frame-layout-2 .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.frame-layout-1 .frame-layout-2 .title .note {
+  margin: auto 0;
+  padding-left: 10px;
+}
+
+.frame-layout-1 .frame-layout-2 .title .note i {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  padding-top: 5px;
+  border: 1px solid;
+  border-radius: 20%;
+}
+
+.frame-layout-1 .frame-layout-2 .title .note .note-detail {
+  background-color: #ffffff;
+  color: black;
+  text-align: left;
+  width: 300px;
+  position: absolute;
+  z-index: 50;
+  padding: 5px;
+  border: 3px solid #FA9B10;
+  border-radius: 10%;
+  display: none;
+}
+
+.frame-layout-1 .frame-layout-2 .title .note .note-detail-2 {
+  background-color: #ffffff;
+  color: black;
+  text-align: left;
+  width: 300px;
+  position: absolute;
+  z-index: 50;
+  padding: 5px;
+  border: 3px solid #FA9B10;
+  border-radius: 10%;
+  display: none;
+  right: 100px;
 }
 
 .frame-layout-1 .frame-layout-2 .frame-main {
