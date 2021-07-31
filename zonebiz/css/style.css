@@ -455,17 +455,6 @@ body {
   background-color: #ffffff;
 }
 
-@media screen and (max-width: 64em) {
-  .overlay1 {
-    position: fixed;
-    right: 0;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-}
-
 @media screen and (min-width: 46.25em) and (max-width: 64em) {
   .format-name h1 {
     font-size: 26px;
@@ -478,7 +467,7 @@ body {
     background-color: #222f41;
   }
   .frame-layout-1 .frame-layout-2 h3 {
-    color: tomato;
+    color: red;
   }
   .frame-layout-1 .frame-layout-2 .frame-main {
     background-color: #131e2a;
@@ -599,6 +588,9 @@ body {
     border-radius: 10%;
     display: none;
     right: 30px;
+  }
+  .frame-layout-1 .frame-layout-2 .title h3 {
+    color: red;
   }
   .frame-layout-1 .frame-layout-2 .title .frame-main {
     background-color: #131e2a;
