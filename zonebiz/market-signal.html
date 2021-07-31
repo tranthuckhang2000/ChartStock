@@ -59,6 +59,7 @@
 			</div>
 		</div>
 
+
 		<!-- Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-light top-nav">
 			<div class="container">
@@ -76,7 +77,7 @@
 							<!-- <a class="nav-link" href="index.html">Trang Chủ</a> -->
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" href="search.html">
+							<a class="nav-link" href="teachnique-search.html">
 								<ul>
 									<li>
 										<div class="icon-format">
@@ -93,7 +94,7 @@
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="services.html">
+							<a class="nav-link" href="basic-search.html">
 								<ul>
 									<li>
 										<div class="icon-format">
@@ -111,7 +112,7 @@
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="services.html">
+							<a class="nav-link" href="statistical.html">
 								<ul>
 									<li>
 										<div class="icon-format">
@@ -128,7 +129,7 @@
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="services.html">
+							<a class="nav-link active" href="market-signal.html">
 								<ul>
 									<li>
 										<div class="icon-format">
@@ -149,20 +150,6 @@
 			</div>
 		</nav>
 
-		<!-- full Title -->
-		<!-- <div class="full-title">
-			<div class="container">
-				<h1 class="mt-4 mb-3"> Thông Kê Trong Phiên</h1>
-				<div class="breadcrumb-main">
-					<ol class="breadcrumb">
-						<li class="breadcrumb-item">
-							<a href="index.html">Trang Chủ</a>
-						</li>
-						<li class="breadcrumb-item active"> Thống Kê Trong Phiên </li>
-					</ol>
-				</div>
-			</div>
-		</div> -->
 
 		<div class="container">
 			<!-- About Content -->
@@ -185,7 +172,21 @@
 					<div class="col-sm-12">
 						<div class="frame-layout-1">
 							<div class="frame-layout-2">
-								<h3 style="font-weight: bold;">Tín hiệu dòng tiền lớn </h3>
+								<div class="title">
+									<h3>Tín hiệu dòng tiền lớn </h3>
+									<div class="note">
+										<i id="i-tin-hieu" class="fas fa-exclamation"></i>
+										<div id="note-tin-hieu" class="note-detail">
+											<p>Đường màu Cam thể hiện cho dòng tiền Mua
+												Đường màu Xanh thể hiện cho dòng tiền Bán
+												Khi đường màu Xanh cắt lên trên đường màu Cam là tín hiệu Mua của thị
+												trường chung.
+											</p>
+										</div>
+									</div>
+								</div>
+
+
 								<div class="frame-main">
 									<div>
 										<div style="height: 300px; color: black" id="chart111"></div>
@@ -197,7 +198,21 @@
 					<div class="col-sm-12">
 						<div class="frame-layout-1">
 							<div class="frame-layout-2">
-								<h3>Đánh giá nhóm nghành</h3>
+
+								<div class="title">
+									<h3>Đánh giá nhóm nghành</h3>
+									<div class="note">
+										<i id="i-nhom-nghanh" class="fas fa-exclamation"></i>
+										<div id="note-nhom-nghanh" class="note-detail">
+											<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
+												Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
+												Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
+												hiện xu hướng tăng trưởng.
+											</p>
+										</div>
+									</div>
+								</div>
+
 								<div class="frame-main">
 									<div>
 										<div style="height: 300px; color: black" id="chart222"></div>
@@ -209,53 +224,67 @@
 					<div class="col-sm-12">
 						<div class="frame-layout-1">
 							<div class="frame-layout-2">
-								<h3>Chi tiết cổ phiếu</h3>
+								<div class="title">
+									<h3>Chi tiết cổ phiếu</h3>
+									<div class="note">
+										<i id="i-chi-tiet" class="fas fa-exclamation"></i>
+										<div id="note-chi-tiet" class="note-detail">
+											<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
+												Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
+												Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
+												hiện xu hướng tăng trưởng.
+											</p>
+										</div>
+									</div>
+								</div>
 								<div class="frame-main">
 									<div class="row">
 										<div class="col-sm-2">
 											<div class="format-dropdown">
-												<button id="bt-dropdown-1" class="btn dropdown-toggle" type="button" data-toggle="dropdown">Dịch vụ tài chính
+												<button id="bt-dropdown-1" class="btn dropdown-toggle" type="button"
+													data-toggle="dropdown">Dịch vụ tài chính
 													<span class="caret"></span></button>
 												<ul id="menu-dropdown-1" class="format-dropdown-menu">
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
 												</ul>
-											 </div>
+											</div>
 
-											 <div class="format-dropdown">
-												<button id="bt-dropdown-2" class="btn dropdown-toggle" type="button" data-toggle="dropdown">Mã chứng khoáng
+											<div class="format-dropdown">
+												<button id="bt-dropdown-2" class="btn dropdown-toggle" type="button"
+													data-toggle="dropdown">Mã chứng khoáng
 													<span class="caret"></span></button>
 												<ul id="menu-dropdown-2" class="format-dropdown-menu">
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
-												  <li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
+													<li>VIX</li>
 												</ul>
-											 </div>
+											</div>
 										</div>
 										<div class="col-sm-10 circle-chart">
 											<div style="justify-content: center;" class="row">
@@ -319,27 +348,27 @@
 											</div>
 										</div>
 
-										</div>
-										<!-- <div class="col-sm-12">
+									</div>
+									<!-- <div class="col-sm-12">
 											<div id="chart555"></div>
 										</div>
 										<div class="col-sm-12">
 											<div id="chart666"></div>
 										</div> -->
 
-									</div>
-
 								</div>
+
 							</div>
 						</div>
 					</div>
 				</div>
-				<!-- /.row -->
 			</div>
+			<!-- /.row -->
 		</div>
+	</div>
 
 
-		<!-- Contact Us
+	<!-- Contact Us
 		<div class="touch-line">
 			<div class="container">
 				<div class="row">
@@ -353,84 +382,83 @@
 			</div>
 		</div> -->
 
-		<!-- /.container -->
-		<!--footer starts from here-->
-		<footer class="footer">
-			<div class="container bottom_border">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6 col">
-						<h5 class="headin5_amrc col_white_amrc pt2">Về Chúng Tôi</h5>
-						<!--headin5_amrc-->
-						<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-							Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-						<ul class="footer-social">
-							<li><a class="facebook hb-xs-margin" href="#"><span class="hb hb-xs spin hb-facebook"><i
-											class="fab fa-facebook-f"></i></span></a></li>
-							<li><a class="twitter hb-xs-margin" href="#"><span class="hb hb-xs spin hb-twitter"><i
-											class="fab fa-twitter"></i></span></a></li>
-							<li><a class="instagram hb-xs-margin" href="#"><span class="hb hb-xs spin hb-instagram"><i
-											class="fab fa-instagram"></i></span></a></li>
-							<li><a class="googleplus hb-xs-margin" href="#"><span
-										class="hb hb-xs spin hb-google-plus"><i
-											class="fab fa-google-plus-g"></i></span></a></li>
-							<li><a class="dribbble hb-xs-margin" href="#"><span class="hb hb-xs spin hb-dribbble"><i
-											class="fab fa-dribbble"></i></span></a></li>
-						</ul>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<h5 class="headin5_amrc col_white_amrc pt2">Truy Cập Nhanh</h5>
-						<!--headin5_amrc-->
-						<ul class="footer_ul_amrc">
-							<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Đăng Nhập</a></li>
-							<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Đăng Ký</a></li>
-							<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Tra Cứu Cổ Phiếu</a></li>
-							<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Thống Kê Trong Phiên</a></li>
-							<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Tín Hiệu Thị Trường</a></li>
-							<!-- <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>About Us</a></li>
+	<!-- /.container -->
+	<!--footer starts from here-->
+	<footer class="footer">
+		<div class="container bottom_border">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6 col">
+					<h5 class="headin5_amrc col_white_amrc pt2">Về Chúng Tôi</h5>
+					<!--headin5_amrc-->
+					<p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+						Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+					<ul class="footer-social">
+						<li><a class="facebook hb-xs-margin" href="#"><span class="hb hb-xs spin hb-facebook"><i
+										class="fab fa-facebook-f"></i></span></a></li>
+						<li><a class="twitter hb-xs-margin" href="#"><span class="hb hb-xs spin hb-twitter"><i
+										class="fab fa-twitter"></i></span></a></li>
+						<li><a class="instagram hb-xs-margin" href="#"><span class="hb hb-xs spin hb-instagram"><i
+										class="fab fa-instagram"></i></span></a></li>
+						<li><a class="googleplus hb-xs-margin" href="#"><span class="hb hb-xs spin hb-google-plus"><i
+										class="fab fa-google-plus-g"></i></span></a></li>
+						<li><a class="dribbble hb-xs-margin" href="#"><span class="hb hb-xs spin hb-dribbble"><i
+										class="fab fa-dribbble"></i></span></a></li>
+					</ul>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<h5 class="headin5_amrc col_white_amrc pt2">Truy Cập Nhanh</h5>
+					<!--headin5_amrc-->
+					<ul class="footer_ul_amrc">
+						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Đăng Nhập</a></li>
+						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Đăng Ký</a></li>
+						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Tra Cứu Cổ Phiếu</a></li>
+						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Thống Kê Trong Phiên</a></li>
+						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Tín Hiệu Thị Trường</a></li>
+						<!-- <li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>About Us</a></li>
 						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Our Services</a></li>
 						<li><a href="#"><i class="fas fa-long-arrow-alt-right"></i>Get In Touch</a></li> -->
-						</ul>
-						<!--footer_ul_amrc ends here-->
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 col">
-						<h5 class="headin5_amrc col_white_amrc pt2">Theo Dõi Chúng Tôi Tại</h5>
-						<!--headin5_amrc ends here-->
-						<ul class="footer_ul_amrc">
-							<li>
-							<li> <a href="#"><i class="fab fa-facebook-square"></i></i> Fabook</a></li>
-							</li>
-							<li>
-							<li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
-							</li>
-							<li>
-							<li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
-							</li>
-						</ul>
-						<!--footer_ul2_amrc ends here-->
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 ">
-						<div class="news-box">
-							<h5 class="headin5_amrc col_white_amrc pt2">Tìm Kiếm Nhanh</h5>
-							<p>Tìm kiếm thông tin nhanh của cổ phiếu mà bạn quan tâm tại đây</p>
-							<form action="#">
-								<div class="input-group">
-									<input class="form-control" placeholder="Search for..." type="text">
-									<span class="input-group-btn">
-										<button class="btn btn-secondary" type="button"><i
-												class="fas fa-search"></i></button>
-									</span>
-								</div>
-							</form>
-						</div>
+					</ul>
+					<!--footer_ul_amrc ends here-->
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col">
+					<h5 class="headin5_amrc col_white_amrc pt2">Theo Dõi Chúng Tôi Tại</h5>
+					<!--headin5_amrc ends here-->
+					<ul class="footer_ul_amrc">
+						<li>
+						<li> <a href="#"><i class="fab fa-facebook-square"></i></i> Fabook</a></li>
+						</li>
+						<li>
+						<li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+						</li>
+						<li>
+						<li><a href="#"><i class="fab fa-twitter"></i>Twitter</a></li>
+						</li>
+					</ul>
+					<!--footer_ul2_amrc ends here-->
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 ">
+					<div class="news-box">
+						<h5 class="headin5_amrc col_white_amrc pt2">Tìm Kiếm Nhanh</h5>
+						<p>Tìm kiếm thông tin nhanh của cổ phiếu mà bạn quan tâm tại đây</p>
+						<form action="#">
+							<div class="input-group">
+								<input class="form-control" placeholder="Search for..." type="text">
+								<span class="input-group-btn">
+									<button class="btn btn-secondary" type="button"><i
+											class="fas fa-search"></i></button>
+								</span>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
-			<div class="container">
-				<!-- <p class="copyright text-center">All Rights Reserved. &copy; 2018 <a href="#">Zonebiz</a> Design By : 
+		</div>
+		<div class="container">
+			<!-- <p class="copyright text-center">All Rights Reserved. &copy; 2018 <a href="#">Zonebiz</a> Design By : 
 				<a href="https://html.design/">html design</a>
             </p> -->
-			</div>
-		</footer>
+		</div>
+	</footer>
 	</div>
 	<!-- Bootstrap core JavaScript -->
 	<script src="vendor/jquery/jquery.min.js"></script>
@@ -722,10 +750,6 @@
 
 	</script>
 
-
-
-
-
 	<!-- Chi tiet co phieu-->
 	<script>
 
@@ -733,7 +757,7 @@
 		var options = {
 			series: [90, 10], // So lieu của chart
 			labels: ['Cổ phiếu trong xu hướng tăng', 'Cổ phiếu trong xu hướng giảm'],
-			colors:['#02af50', '#ff0000']  // label mo ta
+			colors: ['#02af50', '#ff0000']  // label mo ta
 			,
 			chart: {
 				type: 'donut',
@@ -747,13 +771,13 @@
 
 			},
 			plotOptions: {
-               pie: {
-                 donut: {
-                 size: '65%',
-				 customScale: 1.8
-                 }
-               }
-            },
+				pie: {
+					donut: {
+						size: '65%',
+						customScale: 1.8
+					}
+				}
+			},
 			responsive: [{
 				// breakpoint: 480,
 				// options: {
@@ -802,11 +826,11 @@
 			colors: ['#2E9AFE', '#FE2E9A', '#01DF01', '#FE2E9A'], // color line
 			dataLabels: {
 				enabled: true,
-				
+
 			},
 			stroke: {
 				curve: 'smooth',
-				dashArray: [0 ,12]
+				dashArray: [0, 12]
 			},
 			title: {
 				text: 'Name Chart',
@@ -866,114 +890,128 @@
 
 
 
-<script>
-	var options = {
-		series: [
-			{
-				// name: "",
-				data: [28, 29, 33, 36, 32, 32, 33]
-			},
-			{
-				// name: "",
-				data: [28, 29, 33, 36]
-			},
+	<script>
+		var options = {
+			series: [
+				{
+					// name: "",
+					data: [28, 29, 33, 36, 32, 32, 33]
+				},
+				{
+					// name: "",
+					data: [28, 29, 33, 36]
+				},
 
-		],
-		chart: {
-			height: 250,
-			type: 'line',
-			dropShadow: {
+			],
+			chart: {
+				height: 250,
+				type: 'line',
+				dropShadow: {
+					enabled: true,
+					color: '#000',
+					top: 18,
+					left: 7,
+					blur: 10,
+					opacity: 0.2
+				},
+				toolbar: {
+					show: false
+				}
+			},
+			colors: ['#01DF01', '#FE2E9A'], // color line
+			dataLabels: {
 				enabled: true,
-				color: '#000',
-				top: 18,
-				left: 7,
-				blur: 10,
-				opacity: 0.2
+
 			},
-			toolbar: {
-				show: false
-			}
-		},
-		colors: ['#01DF01', '#FE2E9A'], // color line
-		dataLabels: {
-			enabled: true,
-			
-		},
-		stroke: {
-			curve: 'smooth',
-			dashArray: [0 ,12]
-		},
-		title: {
-			text: 'Name Chart',
-			align: 'left'
-		},
-		grid: {
-			borderColor: '#e7e7e7',
-			row: {
-				colors: ['#131e2a', 'transparent'], // takes an array which will be repeated on columns
-				opacity: 0.5
-			},
-		},
-		markers: {
-			size: 1
-		},
-		xaxis: {
-			categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
-			title: {
-				text: 'Month'
-			},
-			labels: {
-				style: {
-					colors: 'white',
-				}
-			},
-		},
-		yaxis: {
-			labels: {
-				style: {
-					colors: 'white',
-				}
+			stroke: {
+				curve: 'smooth',
+				dashArray: [0, 12]
 			},
 			title: {
-				text: 'Temperature'
+				text: 'Name Chart',
+				align: 'left'
 			},
-			min: 5,
-			max: 40
-		},
-		legend: {
-			position: 'top',
-			horizontalAlign: 'right',
-			floating: true,
-			offsetY: -25,
-			offsetX: -5,
-			labels: {
-				colors: 'white',
-				useSeriesColors: false
+			grid: {
+				borderColor: '#e7e7e7',
+				row: {
+					colors: ['#131e2a', 'transparent'], // takes an array which will be repeated on columns
+					opacity: 0.5
+				},
+			},
+			markers: {
+				size: 1
+			},
+			xaxis: {
+				categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+				title: {
+					text: 'Month'
+				},
+				labels: {
+					style: {
+						colors: 'white',
+					}
+				},
+			},
+			yaxis: {
+				labels: {
+					style: {
+						colors: 'white',
+					}
+				},
+				title: {
+					text: 'Temperature'
+				},
+				min: 5,
+				max: 40
+			},
+			legend: {
+				position: 'top',
+				horizontalAlign: 'right',
+				floating: true,
+				offsetY: -25,
+				offsetX: -5,
+				labels: {
+					colors: 'white',
+					useSeriesColors: false
+				}
 			}
-		}
-	};
+		};
 
 
-	var chart = new ApexCharts(document.querySelector("#chart666"), options);
-	chart.render();
+		var chart = new ApexCharts(document.querySelector("#chart666"), options);
+		chart.render();
 
-</script>
+	</script>
 
-   <!-- handle dropdown -->
-   <script>
-	$(document).ready(function(){
-	$('#bt-dropdown-2').click(function(){
-		$('#menu-dropdown-2').toggle();
-	});
+	<!-- handle dropdown -->
+	<script>
+		$(document).ready(function () {
+			$('#bt-dropdown-2').click(function () {
+				$('#menu-dropdown-2').toggle();
+			});
 
-	$('#bt-dropdown-1').click(function(){
-		$('#menu-dropdown-1').toggle();
-	});
+			$('#bt-dropdown-1').click(function () {
+				$('#menu-dropdown-1').toggle();
+			});
 
-})	
-</script>
+		})
+	</script>
 
+	<!-- note -->
+	<script>
+		$(document).ready(function () {
+			$('#i-tin-hieu').click(function () {
+				$('#note-tin-hieu').toggle();
+			})
+			$('#i-nhom-nghanh').click(function () {
+				$('#note-nhom-nghanh').toggle();
+			})
+			$('#i-chi-tiet').click(function () {
+				$('#note-chi-tiet').toggle();
+			})
+		})
 
+	</script>
 </body>
 
 </html>

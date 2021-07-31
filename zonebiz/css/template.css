@@ -106,6 +106,13 @@ button.btn-secondary:hover{
 	padding: 0px 5px;
 	color: #ffffff;
 }
+
+.contact-details ul li a:hover{
+	color: #6434b6;
+}
+/* .contact-details ul li a:active{
+	color: red;
+} */
 .wrapper-main{
 	position: relative;
 	overflow: hidden;
@@ -363,7 +370,7 @@ button.btn-secondary:hover{
 }
 .about-main p{
 	font-size: 15px;
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 }
 .about-main ul{
 	/* padding-left: 20px; */
