@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="ChartStock">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/colorlib-search-2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Zonebiz Free Website Template - Free-CSS.com.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
