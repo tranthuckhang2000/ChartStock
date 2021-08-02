@@ -586,6 +586,106 @@ body {
   background-color: #ffffff;
 }
 
+.form-upload {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  min-height: 250px;
+}
+
+.form-upload h1 {
+  margin-top: 50px;
+  font-weight: normal;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.form-upload h1 span {
+  font-size: 13px;
+  display: block;
+  padding-left: 4px;
+}
+
+.form-upload p {
+  margin-top: 200px;
+}
+
+.form-upload p a {
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 0 5px;
+  background-color: #6032ae;
+}
+
+.form-upload p a:hover {
+  background-color: #592ea2;
+}
+
+.form-upload .custom-file-upload-hidden {
+  display: none;
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+}
+
+.form-upload .custom-file-upload {
+  display: block;
+  width: auto;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.form-upload .custom-file-upload label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-upload .file-upload-wrapper {
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.form-upload .file-upload-input {
+  width: 300px;
+  color: #fff;
+  font-size: 16px;
+  padding: 11px 17px;
+  border: none;
+  background-color: #6434b6;
+  float: left;
+  /* IE 9 Fix */
+}
+
+.form-upload .file-upload-input:hover, .form-upload .file-upload-input:focus {
+  background-color: #592ea2;
+  outline: none;
+}
+
+.form-upload .file-upload-button {
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 11px 20px;
+  border: none;
+  margin-left: -1px;
+  background-color: #4e298e;
+  float: left;
+  /* IE 9 Fix */
+}
+
+.form-upload .file-upload-button:hover {
+  background-color: #381d67;
+}
+
 @media screen and (min-width: 46.25em) and (max-width: 64em) {
   .format-name h1 {
     font-size: 26px;
