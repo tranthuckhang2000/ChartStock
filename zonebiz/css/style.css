@@ -316,7 +316,7 @@ body {
 }
 
 .frame-layout-1 .frame-layout-2 .title .note .note-detail-2 {
-  background-color: #ffffff;
+  background-color: #E8E8E8;
   color: black;
   text-align: left;
   width: 300px;
@@ -573,7 +573,7 @@ body {
 }
 
 .login-root {
-  height: 700px;
+  min-height: 700px;
   top: 200px;
   background-color: rgba(0, 0, 0, 0.3);
   z-index: 20;

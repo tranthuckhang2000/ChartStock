@@ -328,7 +328,7 @@ $colorContent: #ffffff;
         }
 
         .note-detail-2 {
-          background-color: #ffffff;
+          background-color: #E8E8E8;
           color: black;
           text-align: left;
           width: 300px;
@@ -703,7 +703,7 @@ $colorContent: #ffffff;
       h1{
         color: $colorContent;
       }
-      height: 700px;
+      min-height: 700px;
       // position: fixed;
       top: 200px;
       background-color: rgba(0,0 ,0 ,0.3 );
