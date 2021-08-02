@@ -686,6 +686,83 @@ body {
   background-color: #381d67;
 }
 
+.nav-mobile {
+  display: none;
+}
+
+.nav-overlay {
+  display: none;
+}
+
+@media screen and (max-width: 64em) {
+  .nav-overlay {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .nav-mobile {
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    z-index: 30;
+  }
+  .nav-mobile .intro {
+    background-color: #1b1c3e;
+  }
+  .nav-mobile .intro #exit {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+  .nav-mobile .intro .logo-mobile {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 2%;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 5%;
+  }
+  .nav-mobile .intro .logo-mobile h6 {
+    margin: auto 0;
+    margin-right: 40px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #ffffff;
+  }
+  .nav-mobile .menu-mobile {
+    margin-top: 5%;
+    color: #999999;
+  }
+  .nav-mobile .menu-mobile .menu-item {
+    margin: 30px 0;
+    margin-left: -20px;
+    font-weight: 600;
+  }
+  .nav-mobile .menu-mobile .menu-item a {
+    color: #999999;
+  }
+  .nav-mobile .menu-mobile .menu-item i {
+    padding: 5px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  .nav-mobile .menu-mobile .menu-item:hover {
+    color: #6434b6;
+  }
+  .nav-mobile .menu-mobile .menu-item:hover a {
+    color: #6434b6;
+  }
+}
+
 @media screen and (min-width: 46.25em) and (max-width: 64em) {
   .format-name h1 {
     font-size: 26px;
@@ -995,7 +1072,8 @@ body {
   margin-bottom: 10px;
 }
 
-.login-root .reset-pass a, .login-root label {
+.login-root .reset-pass a,
+.login-root label {
   font-size: 14px;
   font-weight: 600;
   display: block;
