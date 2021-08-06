@@ -20,7 +20,10 @@
 	<link href="css/style.css" rel="stylesheet">
 
 	<link href="css/search.css" rel="stylesheet">
-
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -46,9 +49,8 @@
 							<ul>
 								<li><i class="fas fa-phone fa-rotate-90"></i> +84 222 333 777</li>
 								<li><i class="fas fa-map-marker-alt"></i> Đống Đa, Hà Nội</li>
-								<li><a class="login" href=""><i class="fas fa-sign-in-alt"></i> Đăng Nhập</a></li>
-								<li><a class="login" href=""><i class="fas fa-sign-in-alt"></i> Đăng Ký </a></li>
-
+								<li><a class="login" href="login.html"><i class="fas fa-sign-in-alt"></i> Đăng Nhập</a></li>
+								<li><a class="login" href="logup.html"><i class="fas fa-sign-in-alt"></i> Đăng Ký </a></li>
 							</ul>
 						</div>
 					</div>
@@ -168,6 +170,27 @@
 											<input type="email" name="email">
 										</div>
 										<div class="field padding-bottom--24">
+											<label for="phone_number">Số điện thoại</label>
+											<input type="phone_number" name="phone_number">
+										</div>
+										<div class="field padding-bottom--24">
+											<label for="email">Công ty chứng khoáng hiện tại</label>
+											<select class="select-logup"  aria-label=".form-select-lg example">
+												<option selected>Chọn tại đây</option>
+												<option value="1">VSP</option>
+												<option value="2">SSI</option>
+												<option value="3">HSC</option>
+												<option value="4">HSC</option>
+												<option value="5">VNDS</option>
+												<option value="6">VCSC</option>
+												<option value="7">TCBS</option>
+												<option value="8">MBS</option>
+												<option value="9">FPTS</option>
+												<option value="10">BSC</option>
+												<option value="11">Khác</option>
+											  </select>
+										</div>
+										<div class="field padding-bottom--24">
 											<div class="grid--50-50">
 												<label for="password">Mật khẩu</label>
 											</div>
@@ -181,6 +204,10 @@
 											<label for="checkbox">
 												<input type="checkbox" name="checkbox"> Giữ đăng nhập
 											</label>
+										</div>
+										<div class="field padding-bottom--24">
+											<label for="capcha">Nhập mã xác thực</label>
+											<div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
 										</div>
 										<div class="field padding-bottom--24">
 											<input style="background-color: #6434b6" type="submit" name="submit"
@@ -320,6 +347,8 @@
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/choices.js"></script>
+	<!-- google capcha -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </body>
 

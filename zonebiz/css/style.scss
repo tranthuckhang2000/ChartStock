@@ -11,7 +11,22 @@ $colorBackgroundMenu: #08091d;
 $colorP: #6434b6;
 $colorContent: #ffffff;
 
+a.login{
+	color:#ffffff;
+}
+a.login:hover{
+	color: $colorP;
+}
 
+.select-logup{
+  font-size: 16px;
+  line-height: 28px;
+  padding: 14px 16px;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  border-color: #e0e1e4;
+  }
 #colorContent {
   color: $colorContent;
 }
@@ -1162,6 +1177,7 @@ $colorContent: #ffffff;
   // position: relative;
   z-index: 10;
 }
+
 
 .login-root {
   h1 {

@@ -46,9 +46,8 @@
 							<ul>
 								<li><i class="fas fa-phone fa-rotate-90"></i> +84 222 333 777</li>
 								<li><i class="fas fa-map-marker-alt"></i> Đống Đa, Hà Nội</li>
-								<li><a class="login" href=""><i class="fas fa-sign-in-alt"></i> Đăng Nhập</a></li>
-								<li><a class="login" href=""><i class="fas fa-sign-in-alt"></i> Đăng Ký </a></li>
-
+								<li><a class="login active" href="login.html"><i class="fas fa-sign-in-alt"></i> Đăng Nhập</a></li>
+								<li><a class="login" href="logup.html"><i class="fas fa-sign-in-alt"></i> Đăng Ký </a></li>
 							</ul>
 						</div>
 					</div>
@@ -160,8 +159,8 @@
 								<div class="formbg-inner padding-horizontal--48">
 									<form id="stripe-login">
 										<div class="field padding-bottom--24">
-											<label for="email">Email</label>
-											<input type="email" name="email">
+											<label for="phone_number">Số điện thoại</label>
+											<input type="phone_number" name="phone_number">
 										</div>
 										<div class="field padding-bottom--24">
 											<div class="grid--50-50">
@@ -171,6 +170,10 @@
 												</div>
 											</div>
 											<input type="password" name="password">
+										</div>
+										<div class="field padding-bottom--24">
+											<label for="capcha">Nhập mã xác thực</label>
+											<div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
 										</div>
 										<div class="field field-checkbox padding-bottom--24 flex-flex align-center">
 											<label for="checkbox">
@@ -315,6 +318,8 @@
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/choices.js"></script>
+		<!-- google capcha -->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 
 </body>
 

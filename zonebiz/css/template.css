@@ -21,12 +21,7 @@ a.btn-primary{
 	border-color: #1273eb;
 }
 
-a.login{
-	color:#ffffff;
-}
-a.login:hover{
-	color: #323232
-}
+
 
 a.btn-primary:hover{
 	background-color: #323232;
