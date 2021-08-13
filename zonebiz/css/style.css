@@ -114,7 +114,6 @@ a.login:hover {
 .table-1-2 {
   padding: 15px;
   margin: 0 -16px;
-  border-bottom: 1px solid;
 }
 
 .table-1-2 .above-table {
@@ -144,7 +143,6 @@ a.login:hover {
 }
 
 .table-1-2 .under-table {
-  height: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -333,6 +331,7 @@ a.login:hover {
 .frame-layout-1 .frame-layout-2 .title .note {
   margin: auto 0;
   padding-left: 10px;
+  position: relative;
 }
 
 .frame-layout-1 .frame-layout-2 .title .note i {
@@ -348,8 +347,9 @@ a.login:hover {
   background-color: #E8E8E8;
   color: black;
   text-align: left;
-  width: 300px;
+  width: 200px;
   position: absolute;
+  right: 10px;
   z-index: 50;
   padding: 5px;
   border: 3px solid #FA9B10;
@@ -361,14 +361,14 @@ a.login:hover {
   background-color: #E8E8E8;
   color: black;
   text-align: left;
-  width: 300px;
+  width: 200px;
   position: absolute;
   z-index: 50;
   padding: 5px;
   border: 3px solid #FA9B10;
   border-radius: 10%;
   display: none;
-  right: 100px;
+  right: 0px;
 }
 
 .frame-layout-1 .frame-layout-2 .frame-main {
@@ -713,6 +713,9 @@ a.login:hover {
 }
 
 @media screen and (max-width: 64em) {
+  .note-detail-2 {
+    width: 50px;
+  }
   .nav-overlay {
     position: fixed;
     right: 0;

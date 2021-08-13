@@ -123,7 +123,7 @@ a.login:hover{
   //  margin-top: 15%;
   margin: 0 -16px;
   //  background-color: #e7e6e6;
-  border-bottom: 1px solid;
+  // border-bottom: 1px solid;
 
   .above-table {
     min-height: 50px;
@@ -175,11 +175,12 @@ a.login:hover{
 
   .under-table {
     // padding: 10px 0;
-    height: 50%;
     // background-color: green;
     display: flex;
     align-items: flex-end;
     // justify-content: space-around;
+      // border-bottom: 1px solid;
+
 
     h3 {
       font-size: 35px;
@@ -370,7 +371,7 @@ a.login:hover{
         margin: auto 0;
         padding-left: 10px;
 
-        // position: absolute;
+        position: relative;
         i {
           width: 25px;
           height: 25px;
@@ -385,8 +386,9 @@ a.login:hover{
           background-color: #E8E8E8;
           color: black;
           text-align: left;
-          width: 300px;
+          width: 200px;
           position: absolute;
+          right: 10px;
           z-index: 50;
           padding: 5px;
           border: 3px solid #FA9B10;
@@ -400,14 +402,14 @@ a.login:hover{
           background-color: #E8E8E8;
           color: black;
           text-align: left;
-          width: 300px;
+          width: 200px;
           position: absolute;
           z-index: 50;
           padding: 5px;
           border: 3px solid #FA9B10;
           border-radius: 10%;
           display: none;
-          right: 100px;
+          right: 0px;
           // top: 50px;
           // text-transform:lowercase;
         }
@@ -871,6 +873,9 @@ a.login:hover{
 }
 
 @media screen and (max-width: 64em) {
+  .note-detail-2{
+    width: 50px;
+    }
   .nav-overlay {
     position: fixed;
     right: 0;
