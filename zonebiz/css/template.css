@@ -111,7 +111,7 @@ button.btn-secondary:hover{
 	background-color: #272837 !important;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link{
-	padding: 10px 15px;
+	/* padding: 10px 15px; */
 	color: #ffffff;
 	font-size: 14px;
 	font-weight: 500;
@@ -119,7 +119,7 @@ button.btn-secondary:hover{
 	position: relative;
 }
 .navbar-expand-lg.top-nav .navbar-nav .nav-link i{
-	font-size: 14px;
+	/* font-size: 25px; */
 	/* float: right; */
 	/* margin-left: 5px; */
 }

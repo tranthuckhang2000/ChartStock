@@ -22,6 +22,9 @@
 
 	<link href="css/search.css" rel="stylesheet">
 
+	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+
+
 
 
 
@@ -242,107 +245,88 @@
 								<div class="frame-main">
 									<div class="row">
 										<div class="col-sm-2">
-											<div class="format-dropdown">
-												<button id="bt-dropdown-1" class="btn dropdown-toggle" type="button"
-													data-toggle="dropdown">Dịch vụ tài chính
-													<span class="caret"></span></button>
-												<ul id="menu-dropdown-1" class="format-dropdown-menu">
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-												</ul>
-											</div>
+											<div class="dropdown-mobile">
+												<div class="menu-dropdown">
+													<button id="btn-ticker" type="button" class="btn">Mã cổ phiếu</button>
+													<div id="menu-ticker" class="vertical-menu">
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p class="active">VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+													</div>
+												</div>
 
-											<div class="format-dropdown">
-												<button id="bt-dropdown-2" class="btn dropdown-toggle" type="button"
-													data-toggle="dropdown">Mã chứng khoáng
-													<span class="caret"></span></button>
-												<ul id="menu-dropdown-2" class="format-dropdown-menu">
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-													<li>VIX</li>
-												</ul>
+												<div class="menu-dropdown">
+													<button id="btn-finance" type="button" class="btn">Dịch vụ tài chính</button>
+													<div id="menu-finance" class="vertical-menu">
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p class="active">VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+														<p>VBN</p>
+													</div>
+												</div>
 											</div>
 										</div>
-										<div class="col-sm-10 circle-chart">
-											<div style="justify-content: center;" class="row">
-												<div class="col-sm-2 description-menu">
-													<div class="description-left">
-														<div class="list-items">
-															<ul>
-																<li>(12.00%)</li>
-																<li>(12.00%)</li>
-																<li>(12.00%)</li>
-																<li>(12.00%)</li>
-																<li>(12.00%)</li>
-
-
-															</ul>
-															<ul>
-																<li>OGG</li>
-																<li>VIX</li>
-																<li>ABI</li>
-																<li>VIHJ</li>
-																<li>VIX</li>
-															</ul>
-														</div>
+										<div class="col-sm-10">
+											<div class="row circle-chart">
+												<div class="col-sm-3 description-menu description-left">
+													<div class="list-item ticker-percent">
+														<p>12</p>
+														<p>12</p>
+														<p>12</p>
+														<p>12</p>
+														<p>12</p>													
+													</div>
+													<div class="list-item">
+														<p>OGG</p>
+														<p>OGGD</p>
+														<p>OGG</p>
+														<p>OGG</p>
+														<p>OGG</p>
 
 													</div>
 												</div>
-												<div style="min-height: 300px; margin: 0 -20px" class="col-sm-6">
+												<div class="col-sm-6">
 													<div id="chartDetail1"></div>
+													
 												</div>
-												<div class="col-sm-2 description-menu">
-													<div class="description-right">
-														<div class="list-items">
-															<ul>
-																<li>OGG</li>
-																<li>VIX</li>
-																<li>ABI</li>
-																<li>VIHJ</li>
-																<li>VIX</li>
-															</ul>
-															<ul>
-																<li>(12.00%)</li>
-																<li>(12.00%)</li>
-																<li>(12.00%)</li>
-																<li>(12.00%)</li>
-																<li>(12.00%)</li>
-
-
-															</ul>
-														</div>
+												<div class="col-sm-3 description-menu description-right">
+													<div class="list-item">
+														<p>OGG</p>
+														<p>OGG</p>
+														<p>OGGA</p>
+														<p>OGG</p>
+														<p>OGG</p>
 
 													</div>
+													<div class="list-item ticker-percent">
+														<p>12</p>
+														<p>12</p>
+														<p>12</p>
+														<p>12</p>
+														<p>12</p>
+														
+													</div>
+	
 												</div>
 
 
 												<div class="col-sm-12">
-													<div style="height: 100px;" id="chart555"></div>
+													<div id="chart555"></div>
 												</div>
 												<div class="col-sm-12">
 													<div id="chart666"></div>
@@ -469,6 +453,8 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<!--Libary chart-->
 	<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 
@@ -487,6 +473,25 @@
 	<!-- <script src="https://cdn.zingchart.com/zingchart.min.js"></script> -->
 
 
+	<script>
+		$(document).ready(function () {
+			const content = $('.ticker-percent p');
+			const ct = document.getElementsByClassName('ticker-percent')
+			// const html;
+			for(var i = 0; i < content.length; i++){
+				const ct = content[i].innerHTML;
+				content[i].innerHTML = ct + '%';
+			}
+
+			
+
+
+			
+			
+
+				
+		})
+	</script>
 	<!-- // Chart Tin hieu dong tien lon -->
 	<script>
 		var options = {
@@ -1014,6 +1019,21 @@
 		})
 
 	</script>
+
+	<script>
+		$(document).ready(function () {
+			$('#btn-ticker').click(function () {
+				$('#menu-ticker').toggle();
+			})
+
+			$('#btn-finance').click(function () {
+				$('#menu-finance').toggle();
+			})
+
+		})
+	</script>
+
+
 </body>
 
 </html>
