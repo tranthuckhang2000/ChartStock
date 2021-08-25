@@ -1,0 +1,135 @@
+.act-table:hover {
+    color: #f5365c;
+}
+
+.delete-account {
+    margin-left: 10px;
+}
+
+@mixin overlay() {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 10000;
+    display: none;
+
+}
+
+#overlay-form-add {
+    @include overlay;
+
+}
+
+#overlay-form-edit {
+    @include overlay;
+
+}
+
+#overlay-form-delete {
+    @include overlay;
+
+}
+
+@mixin form-account-admin() {
+    background-color: #ffffff;
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    right: 30%;
+    left: 30%;
+    z-index: 11000;
+    display: none;
+
+    form {
+        margin: 40px 40px 0px 40px;
+
+        input {
+            margin: 30px 0;
+        }
+    }
+}
+
+@mixin form-account-user() {
+    background-color: #ffffff;
+    position: fixed;
+    top: 6%;
+    bottom: 6%;
+    right: 30%;
+    left: 30%;
+    z-index: 11000;
+    display: none;
+
+    form {
+        margin: 40px 40px 0px 40px;
+
+        input {
+            margin: 30px 0;
+        }
+    }
+}
+
+
+#add-account-admin {
+    @include form-account-admin;
+
+}
+
+#edit-account-admin {
+    @include form-account-admin;
+
+}
+
+#add-account-user {
+    @include form-account-user;
+
+}
+
+#edit-account-user {
+    @include form-account-user;
+
+}
+
+#delete-account-user {
+    text-align: center;
+    background-color: #ffffff;
+    position: fixed;
+    top: 40%;
+    bottom: 40%;
+    right: 33%;
+    left: 33%;
+    z-index: 11000;
+    display: none;
+
+    h3 {
+        margin: 25px 0;
+
+    }
+}
+
+#add-db {
+    background-color: #ffffff;
+    position: fixed;
+    top: 28%;
+    bottom: 28%;
+    right: 30%;
+    left: 30%;
+    z-index: 11000;
+    display: none;
+    form {
+        margin: 40px 40px 0px 40px;
+
+        input {
+            margin: 30px 0;
+        }
+    }
+}
+
+.select-db {
+    padding: 6px 164px;
+    color: #ffffff;
+    border-radius: 3px;
+    background-color: #414e67;
+}
