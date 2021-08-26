@@ -125,6 +125,7 @@
   left: 33%;
   z-index: 11000;
   display: none;
+  border: 3px solid #f5375b;
 }
 
 #delete-account-user h3 {
