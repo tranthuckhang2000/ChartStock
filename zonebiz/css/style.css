@@ -688,15 +688,10 @@ a.login:hover {
   background-color: #381d67;
 }
 
-.nav-mobile {
-  display: none;
-}
-
-.nav-overlay {
-  display: none;
-}
-
 @media screen and (min-width: 63.9em) {
+  .nav-mobile {
+    display: none;
+  }
   .dropdown-mobile .menu-dropdown {
     margin-top: 30px;
     -webkit-box-pack: center;
@@ -824,15 +819,21 @@ a.login:hover {
     width: 50px;
   }
   .nav-overlay {
+    display: none;
     position: fixed;
     right: 0;
     top: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
+    display: none;
   }
   .nav-mobile {
-    background-color: #ffffff;
+    -webkit-transform: translate(100%);
+            transform: translate(100%);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #272837;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -856,7 +857,6 @@ a.login:hover {
     display: -ms-flexbox;
     display: flex;
     margin-top: 2%;
-    border-bottom: 1px solid #999999;
     padding-bottom: 5%;
   }
   .nav-mobile .intro .logo-mobile h6 {
@@ -868,15 +868,16 @@ a.login:hover {
   }
   .nav-mobile .menu-mobile {
     margin-top: 5%;
-    color: #999999;
+    color: #f3f4f5;
   }
   .nav-mobile .menu-mobile .menu-item {
     margin: 30px 0;
     margin-left: -20px;
     font-weight: 600;
+    font-size: 13px;
   }
   .nav-mobile .menu-mobile .menu-item a {
-    color: #999999;
+    color: #f3f4f5;
   }
   .nav-mobile .menu-mobile .menu-item i {
     padding: 5px;
@@ -887,6 +888,12 @@ a.login:hover {
     color: #6434b6;
   }
   .nav-mobile .menu-mobile .menu-item:hover a {
+    color: #6434b6;
+  }
+  .nav-mobile .menu-mobile .menu-item.active {
+    color: #6434b6;
+  }
+  .nav-mobile .menu-mobile .menu-item.active a {
     color: #6434b6;
   }
 }

@@ -835,15 +835,12 @@ a.login:hover {
   }
 }
 
-.nav-mobile {
-  display: none;
-}
 
-.nav-overlay {
-  display: none;
-}
 
 @media screen and (min-width: 63.9em) {
+  .nav-mobile{
+    display: none;
+    }
 
     .dropdown-mobile {
 
@@ -994,13 +991,14 @@ a.login:hover {
   }
 
   .nav-overlay {
+    display: none;
     position: fixed;
     right: 0;
     top: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(255, 255, 255, 0.4);
-    // display: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: none;
   }
 
   .navbar-brand {
@@ -1008,7 +1006,10 @@ a.login:hover {
   }
 
   .nav-mobile {
-    background-color: #ffffff;
+    transform: translate(100%);
+    // display: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #272837;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1032,7 +1033,7 @@ a.login:hover {
         justify-content: space-around;
         display: flex;
         margin-top: 2%;
-        border-bottom: 1px solid #999999;
+        // border-bottom: 1px solid #999999;
         // padding-bottom: 3%;
         // justify-content: space-around;
         // margin-left: 10%;
@@ -1050,15 +1051,16 @@ a.login:hover {
 
     .menu-mobile {
       margin-top: 5%;
-      color: #999999;
+      color: #f3f4f5;
 
       .menu-item {
         margin: 30px 0;
         margin-left: -20px;
         font-weight: 600;
+        font-size: 13px;
 
         a {
-          color: #999999;
+          color: #f3f4f5;
         }
 
         i {
@@ -1071,11 +1073,16 @@ a.login:hover {
 
       .menu-item:hover {
         color: $colorP;
-
         a {
           color: $colorP;
         }
       }
+      .menu-item.active {
+        color: $colorP;
+        a {
+          color: $colorP;
+        }
+        }
     }
   }
 }
