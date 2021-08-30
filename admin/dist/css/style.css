@@ -42,8 +42,8 @@
 #add-account-admin {
   background-color: #ffffff;
   position: fixed;
-  top: 10%;
-  bottom: 10%;
+  top: 18%;
+  bottom: 18%;
   right: 30%;
   left: 30%;
   z-index: 11000;
@@ -61,8 +61,8 @@
 #edit-account-admin {
   background-color: #ffffff;
   position: fixed;
-  top: 10%;
-  bottom: 10%;
+  top: 18%;
+  bottom: 18%;
   right: 30%;
   left: 30%;
   z-index: 11000;
@@ -80,8 +80,8 @@
 #add-account-user {
   background-color: #ffffff;
   position: fixed;
-  top: 6%;
-  bottom: 6%;
+  top: 15%;
+  bottom: 15%;
   right: 30%;
   left: 30%;
   z-index: 11000;
@@ -99,8 +99,8 @@
 #edit-account-user {
   background-color: #ffffff;
   position: fixed;
-  top: 6%;
-  bottom: 6%;
+  top: 15%;
+  bottom: 15%;
   right: 30%;
   left: 30%;
   z-index: 11000;
@@ -120,7 +120,7 @@
   background-color: #ffffff;
   position: fixed;
   top: 40%;
-  bottom: 40%;
+  bottom: 45%;
   right: 33%;
   left: 33%;
   z-index: 11000;
@@ -130,6 +130,10 @@
 
 #delete-account-user h3 {
   margin: 25px 0;
+}
+
+#delete-account-user h3 i {
+  color: #f5ce28;
 }
 
 #add-db {
