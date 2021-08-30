@@ -35,4 +35,7 @@ $(document).ready(function(){
             'transition': 'transform linear 0.2s',
         })
     }
+
+    // Format Name Company
+    $('#nameCompany').text('(' + $('#nameCompany').text() + ')');
 })

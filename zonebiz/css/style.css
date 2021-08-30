@@ -11,6 +11,129 @@ a.login:hover {
   color: #6434b6;
 }
 
+.table-trans .table-under {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 10px;
+}
+
+.table-trans .table-under .table-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 15px;
+}
+
+.table-trans .table-under .table-1 .under {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 5px;
+}
+
+.table-trans .table-under .table-1 .under .time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.table-trans .table-under .table-1 .above {
+  margin: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.table-trans .table-under .table-1 .above h3 {
+  color: green;
+}
+
+.table-trans .table-under .table-1 .above h6 {
+  margin-left: 5px;
+}
+
+.table-trans .table-under .table-2 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.table-trans .table-under .table-2 span {
+  margin: 0 5px;
+}
+
+.table-trans .table-under .table-2 .value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: 0 5px;
+}
+
+.table-trans .table-under .table-2 .value h3 {
+  color: green;
+}
+
+.table-trans .table-under .table-2 .value h6 {
+  margin-left: 5px;
+}
+
+.table-trans .table-above {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.table-trans .table-above .table-item {
+  width: 50%;
+}
+
+.table-trans .table-above .table-item .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .select-logup {
   font-size: 16px;
   line-height: 28px;
@@ -118,74 +241,15 @@ a.login:hover {
   color: #ffffff;
 }
 
-.table-1-2 {
-  padding: 15px;
-  margin: 0 -16px;
-}
-
-.table-1-2 .above-table {
-  min-height: 50px;
+.flex-table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: orange;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 10px;
-}
-
-.table-1-2 .above-table h6 {
-  font-size: 18px;
-}
-
-.table-1-2 .above-table-2 {
-  min-height: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 10px;
-}
-
-.table-1-2 .above-table-2 h6 {
-  font-size: 18px;
-}
-
-.table-1-2 .under-table {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.table-1-2 .under-table h3 {
-  font-size: 35px;
-  color: green;
-  margin: 0 10px;
-}
-
-.table-1-2 .under-table p {
-  font-size: 17px;
-}
-
-.table-1-2 .under-table-2 {
-  height: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.table-1-2 .under-table-2 h3 {
-  font-size: 35px;
-  color: green;
-  margin: 0 10px;
-}
-
-.table-1-2 .under-table-2 p {
-  font-size: 17px;
 }
 
 .table-left {
@@ -689,6 +753,78 @@ a.login:hover {
 }
 
 @media screen and (min-width: 63.9em) {
+  .table-trans .table-under .table-1 .above {
+    margin: 0 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .table-trans .table-under .table-1 .above h3 {
+    color: green;
+  }
+  .table-trans .table-under .table-1 .above h6 {
+    margin-left: 5px;
+  }
+  .table-trans .table-under .table-2 {
+    min-height: 100px;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .table-trans .table-under .table-2 span {
+    margin: 0 5px;
+  }
+  .table-trans .table-under .table-2 .value {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin: 0 5px;
+  }
+  .table-trans .table-under .table-2 .value h3 {
+    color: green;
+  }
+  .table-trans .table-under .table-2 .value h6 {
+    margin-left: 5px;
+  }
+  .table-trans .table-above {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .table-trans .table-above .table-item {
+    width: 50%;
+  }
+  .table-trans .table-above .table-item .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 25px 10px 5px 10px;
+  }
+  .nameCompany {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 20px;
+  }
   .nav-mobile {
     display: none;
   }
@@ -898,7 +1034,51 @@ a.login:hover {
   }
 }
 
-@media screen and (min-width: 46.25em) and (max-width: 64em) {
+@media screen and (min-width: 46.25em) and (max-width: 63.9em) {
+  .table-trans .table-under .table-1 .under p {
+    font-size: 10px;
+  }
+  .table-trans .table-under .table-1 .under .time span {
+    font-size: 10px;
+  }
+  .table-trans .table-under .table-1 .above h3 {
+    font-size: 15px;
+  }
+  .table-trans .table-under .table-1 .above h6 {
+    font-size: 9px;
+  }
+  .table-trans .table-under .table-2 {
+    min-height: 60px;
+  }
+  .table-trans .table-under .table-2 span {
+    margin: 0 5px;
+    font-size: 9px;
+  }
+  .table-trans .table-under .table-2 .value h3 {
+    font-size: 15px;
+  }
+  .table-trans .table-under .table-2 .value h6 {
+    font-size: 9px;
+  }
+  .table-trans .table-above {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .table-trans .table-above .table-item .item {
+    margin: 15px 10px 5px 5px;
+  }
+  .table-trans .table-above .table-item .item p {
+    font-size: 10px;
+  }
+  .nameCompany {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nameCompany h1 {
+    font-size: 25px;
+  }
   .dropdown-mobile .menu-dropdown {
     margin-top: 30px;
     -webkit-box-pack: center;
@@ -990,8 +1170,49 @@ a.login:hover {
 }
 
 @media screen and (max-width: 46.25em) {
-  .format-name h1 {
-    font-size: 26px;
+  .table-trans .table-under .table-1 .under p {
+    font-size: 10px;
+  }
+  .table-trans .table-under .table-1 .under .time span {
+    font-size: 10px;
+  }
+  .table-trans .table-under .table-1 .above h3 {
+    font-size: 15px;
+  }
+  .table-trans .table-under .table-1 .above h6 {
+    font-size: 9px;
+  }
+  .table-trans .table-under .table-2 {
+    min-height: 60px;
+  }
+  .table-trans .table-under .table-2 span {
+    margin: 0 5px;
+    font-size: 9px;
+  }
+  .table-trans .table-under .table-2 .value h3 {
+    font-size: 15px;
+  }
+  .table-trans .table-under .table-2 .value h6 {
+    font-size: 9px;
+  }
+  .table-trans .table-above {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .table-trans .table-above .table-item .item {
+    margin: 15px 10px 5px 5px;
+  }
+  .table-trans .table-above .table-item .item p {
+    font-size: 10px;
+  }
+  .nameCompany {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nameCompany h1 {
+    font-size: 25px;
   }
   .frame-layout-1 {
     margin-top: 10%;

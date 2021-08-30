@@ -17,6 +17,74 @@ a.login {
 a.login:hover {
   color: $colorP;
 }
+.table-trans {
+  .table-under {
+    display: flex;
+    justify-content: space-between;
+    // flex-direction: column;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 10px;
+    .table-1 {
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+
+      margin-right: 15px;
+      .under {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 5px;
+        .time {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+      .above {
+        margin: 0 5px;
+        display: flex;
+        align-items: flex-end;
+        h3 {
+          color: green;
+        }
+        h6 {
+          margin-left: 5px;
+        }
+      }
+    }
+    .table-2 {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      span {
+        margin: 0 5px;
+      }
+      .value {
+        display: flex;
+        align-items: flex-end;
+        margin: 0 5px;
+        h3 {
+          color: green;
+        }
+        h6 {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .table-above {
+    display: flex;
+    .table-item {
+      width: 50%;
+      .item {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
 
 .select-logup {
   font-size: 16px;
@@ -121,103 +189,11 @@ a.login:hover {
 .teachnique {
   color: $colorContent;
 }
-
-.table-1-2 {
-  padding: 15px;
-  //  margin-top: 15%;
-  margin: 0 -16px;
-  //  background-color: #e7e6e6;
-  // border-bottom: 1px solid;
-
-  .above-table {
-    min-height: 50px;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-
-    h6 {
-      font-size: 18px;
-    }
-
-    h3 {
-      // padding: -0.33em 0;
-    }
-
-    .time {
-      // display: flex;
-
-      h6 {
-        // margin-top: 1px;
-        // margin-left: 5px;
-      }
-    }
-  }
-
-  .above-table-2 {
-    min-height: 50px;
-    display: flex;
-    // justify-content:space-around;
-    margin-top: 10px;
-
-    h6 {
-      font-size: 18px;
-    }
-
-    h3 {
-      // padding: -0.33em 0;
-    }
-
-    .time {
-      // display: flex;
-
-      h6 {
-        // margin-top: 1px;
-        // margin-left: 5px;
-      }
-    }
-  }
-
-  .under-table {
-    // padding: 10px 0;
-    // background-color: green;
-    display: flex;
-    align-items: flex-end;
-    // justify-content: space-around;
-    // border-bottom: 1px solid;
-
-    h3 {
-      font-size: 35px;
-      color: green;
-      margin: 0 10px;
-    }
-
-    p {
-      font-size: 17px;
-      // margin-top: 26px;
-      // margin-left: 3px;
-    }
-  }
-
-  .under-table-2 {
-    // padding: 10px 0;
-    height: 50%;
-    // background-color: green;
-    display: flex;
-    align-items: flex-end;
-    // justify-content: space-around;
-
-    h3 {
-      font-size: 35px;
-      color: green;
-      margin: 0 10px;
-    }
-
-    p {
-      font-size: 17px;
-      // margin-top: 26px;
-      // margin-left: 3px;
-    }
-  }
+.flex-table {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: orange;
+  justify-content: space-around;
 }
 
 .table-left {
@@ -422,52 +398,6 @@ a.login:hover {
       }
     }
 
-    //   .note {
-    //   margin: auto 0;
-    //   padding-left: 10px;
-
-    //   // position: absolute;
-    //   i {
-    //     width: 25px;
-    //     height: 25px;
-    //     background-color: red;
-    //     padding-top: 5px;
-    //     border: 1px solid;
-    //     border-radius: 20%;
-
-    //   }
-
-    //   .note-detail {
-    //     background-color: #ffffff;
-    //     color: black;
-    //     text-align: left;
-    //     width: 300px;
-    //     position: absolute;
-    //     z-index: 50;
-    //     padding: 5px;
-    //     border: 3px solid #FA9B10;
-    //     border-radius: 10%;
-    //     display: none;
-    //     // top: 50px;
-    //     // text-transform:lowercase;
-    //   }
-
-    //   .note-detail-2 {
-    //     background-color: #ffffff;
-    //     color: black;
-    //     text-align: left;
-    //     width: 300px;
-    //     position: absolute;
-    //     z-index: 50;
-    //     padding: 5px;
-    //     border: 3px solid #FA9B10;
-    //     border-radius: 10%;
-    //     display: none;
-    //     right: 100px;
-    //     // top: 50px;
-    //     // text-transform:lowercase;
-    //   }
-    // }
     .frame-main {
       background-color: #131e2a;
 
@@ -835,24 +765,80 @@ a.login:hover {
   }
 }
 
-
-
+// Pc
 @media screen and (min-width: 63.9em) {
-  .nav-mobile{
-    display: none;
+  .table-trans {
+    .table-under {
+      .table-1 {
+        .under {
+          .time {
+          }
+        }
+        .above {
+          margin: 0 5px;
+          display: flex;
+          align-items: flex-end;
+          h3 {
+            color: green;
+          }
+          h6 {
+            margin-left: 5px;
+          }
+        }
+      }
+      .table-2 {
+        min-height: 100px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        span {
+          margin: 0 5px;
+        }
+        .value {
+          display: flex;
+          align-items: flex-end;
+          margin: 0 5px;
+          h3 {
+            color: green;
+          }
+          h6 {
+            margin-left: 5px;
+          }
+        }
+      }
     }
+    .table-above {
+      display: flex;
+      .table-item {
+        width: 50%;
+        .item {
+          display: flex;
+          justify-content: space-between;
+          margin: 25px 10px 5px 10px;
+        }
+      }
+    }
+  }
+  .nameCompany {
+    display: flex;
+    font-size: 20px;
+  }
+  .nav-mobile {
+    display: none;
+  }
 
-    .dropdown-mobile {
-
+  .dropdown-mobile {
     .menu-dropdown {
-          margin-top: 30px;
+      margin-top: 30px;
       // background-color: orange;
       justify-content: center;
-              button{
-          background-color: $colorP;
-          color: #ffffff;
-          min-width: 140px;
-          }
+      button {
+        background-color: $colorP;
+        color: #ffffff;
+        min-width: 140px;
+      }
       .vertical-menu {
         display: none;
         margin: 0 auto;
@@ -862,25 +848,22 @@ a.login:hover {
         scrollbar-thumbs: red;
         overflow: auto;
         color: #000000;
-        p{
+        p {
           // border-bottom: 1px solid;
           padding: 2px 0;
         }
-        
-        p:hover{
-          background-color: $colorP;
-          color: #ffffff;
-          border-bottom: #ffffff;
-        }
-        p.active{
-          background-color: $colorP;
-          color: #ffffff;
-          border-bottom: #ffffff;
-        }
 
-  
+        p:hover {
+          background-color: $colorP;
+          color: #ffffff;
+          border-bottom: #ffffff;
+        }
+        p.active {
+          background-color: $colorP;
+          color: #ffffff;
+          border-bottom: #ffffff;
+        }
       }
-
     }
   }
   .description-menu.description-left {
@@ -915,7 +898,7 @@ a.login:hover {
     }
   }
 }
-
+// Iphone and Ipad
 @media screen and (max-width: 63.9em) {
   #chartDetail1 {
     // background-color: red;
@@ -1082,23 +1065,79 @@ a.login:hover {
         a {
           color: $colorP;
         }
-        }
+      }
     }
   }
 }
 
-@media screen and (min-width: 46.25em) and (max-width: 64em) {
-    .dropdown-mobile {
-
+// ipad
+@media screen and (min-width: 46.25em) and (max-width: 63.9em) {
+  .table-trans {
+    .table-under {
+      .table-1 {
+        .under {
+          p {
+            font-size: 10px;
+          }
+          .time {
+            span {
+              font-size: 10px;
+            }
+          }
+        }
+        .above {
+          h3 {
+            font-size: 15px;
+          }
+          h6 {
+            font-size: 9px;
+          }
+        }
+      }
+      .table-2 {
+        min-height: 60px;
+        span {
+          margin: 0 5px;
+          font-size: 9px;
+        }
+        .value {
+          h3 {
+            font-size: 15px;
+          }
+          h6 {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+    .table-above {
+      display: flex;
+      .table-item {
+        .item {
+          margin: 15px 10px 5px 5px;
+          p {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+  .nameCompany {
+    display: flex;
+    h1 {
+      font-size: 25px;
+    }
+  }
+  .dropdown-mobile {
     .menu-dropdown {
-          margin-top: 30px;
+      margin-top: 30px;
       // background-color: orange;
       justify-content: center;
-              button{
-          background-color: $colorP;
-          color: #ffffff;
-          min-width: 140px;
-          }
+      button {
+        background-color: $colorP;
+        color: #ffffff;
+        min-width: 140px;
+      }
       .vertical-menu {
         display: none;
         margin: 0 auto;
@@ -1108,25 +1147,22 @@ a.login:hover {
         scrollbar-thumbs: red;
         overflow: auto;
         color: #000000;
-        p{
+        p {
           // border-bottom: 1px solid;
           padding: 2px 0;
         }
-        
-        p:hover{
-          background-color: $colorP;
-          color: #ffffff;
-          border-bottom: #ffffff;
-        }
-        p.active{
-          background-color: $colorP;
-          color: #ffffff;
-          border-bottom: #ffffff;
-        }
 
-  
+        p:hover {
+          background-color: $colorP;
+          color: #ffffff;
+          border-bottom: #ffffff;
+        }
+        p.active {
+          background-color: $colorP;
+          color: #ffffff;
+          border-bottom: #ffffff;
+        }
       }
-
     }
   }
   .format-name h1 {
@@ -1191,35 +1227,66 @@ a.login:hover {
       }
     }
   }
-
-  // .format-dropdown {
-  //   margin-top: 20px;
-  //   // background-color: #6434b6;
-  //   // background-color: red;
-  //   background-color: #131e2a;
-  //   min-width: 50px;
-
-  //   button {
-  //     color: #ffffff;
-  //     min-width: 150px;
-  //     // background-color: red;
-
-  //   }
-
-  //   .format-dropdown-menu {
-  //     background-color: #ffffff;
-  //     display: none;
-  //     color: black;
-  //   }
-  // }
 }
 
+// Mobile
 @media screen and (max-width: 46.25em) {
-  .format-name h1 {
-    // color: red;
-    font-size: 26px;
+  .table-trans {
+    .table-under {
+      .table-1 {
+        .under {
+          p {
+            font-size: 10px;
+          }
+          .time {
+            span {
+              font-size: 10px;
+            }
+          }
+        }
+        .above {
+          h3 {
+            font-size: 15px;
+          }
+          h6 {
+            font-size: 9px;
+          }
+        }
+      }
+      .table-2 {
+        min-height: 60px;
+        span {
+          margin: 0 5px;
+          font-size: 9px;
+        }
+        .value {
+          h3 {
+            font-size: 15px;
+          }
+          h6 {
+            font-size: 9px;
+          }
+        }
+      }
+    }
+    .table-above {
+      display: flex;
+      .table-item {
+        .item {
+          margin: 15px 10px 5px 5px;
+          p {
+            font-size: 10px;
+          }
+        }
+      }
+    }
   }
-
+  .nameCompany {
+    display: flex;
+    h1 {
+      font-size: 25px;
+    }
+  }
   .frame-layout-1 {
     margin-top: 10%;
     background-color: #131e2a;
@@ -1274,16 +1341,15 @@ a.login:hover {
     display: none;
   }
   .dropdown-mobile {
-
     .menu-dropdown {
-          margin-top: 30px;
+      margin-top: 30px;
       // background-color: orange;
       justify-content: center;
-              button{
-          background-color: $colorP;
-          color: #ffffff;
-          min-width: 140px;
-          }
+      button {
+        background-color: $colorP;
+        color: #ffffff;
+        min-width: 140px;
+      }
       .vertical-menu {
         display: none;
         margin: 0 auto;
@@ -1293,25 +1359,22 @@ a.login:hover {
         scrollbar-thumbs: red;
         overflow: auto;
         color: #000000;
-        p{
+        p {
           // border-bottom: 1px solid;
           padding: 2px 0;
         }
-        
-        p:hover{
-          background-color: $colorP;
-          color: #ffffff;
-          border-bottom: #ffffff;
-        }
-        p.active{
-          background-color: $colorP;
-          color: #ffffff;
-          border-bottom: #ffffff;
-        }
 
-  
+        p:hover {
+          background-color: $colorP;
+          color: #ffffff;
+          border-bottom: #ffffff;
+        }
+        p.active {
+          background-color: $colorP;
+          color: #ffffff;
+          border-bottom: #ffffff;
+        }
       }
-
     }
   }
 }
