@@ -61,8 +61,21 @@ $(document).ready(function(){
         console.log('cliked');
     })
 
-
-
-
+    // note
+    $(document).ready(function () {
+        $('#i-co-ban').click(function () {
+          $('#note-co-ban').toggle();
+        })
+        $('#i-doanh-nghiep').click(function () {
+          $('#note-doanh-nghiep').toggle();
+        })
+        $('#i-thong-so').click(function () {
+          $('#note-thong-so').toggle();
+        })
+        $('#i-cham-diem').click(function () {
+            console.log('clicked');
+          $('#note-cham-diem').toggle();
+        })
+      })
 
 })

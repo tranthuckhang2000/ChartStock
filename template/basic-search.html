@@ -173,16 +173,6 @@
               <div class="frame-layout-2">
                 <div class="title">
                   <h3 style="font-weight: bold;">Chấm điểm cơ bản</h3>
-                  <div class="note">
-                    <i id="i-co-ban" class="fas fa-exclamation"></i>
-                    <div id="note-co-ban" class="note-detail-2">
-                      <p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
-                        Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
-                        Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể hiện xu hướng tăng
-                        trưởng.
-                      </p>
-                    </div>
-                  </div>
                 </div>
                 <div class="frame-main">
                   <div style="margin-bottom: -15px;" class="table-basic">
@@ -222,46 +212,35 @@
               <div class="frame-layout-2">
                 <div class="title">
                   <h3 style="font-weight: bold;">Chấm điểm doanh nghiệp</h3>
-                  <div class="note">
-                    <i id="i-doanh-nghiep" class="fas fa-exclamation"></i>
-                    <div id="note-doanh-nghiep" class="note-detail-2">
+                </div>
+                <div class="frame-main">
+                  <div class="note note-chart">
+                    <i style="margin-right: 5%; top: 25px" id="i-co-ban" class="fas fa-exclamation"></i>
+                    <div style="top: 50px;" id="note-co-ban" class="note-detail-2">
                       <p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
                         Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
-                        Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể hiện xu hướng tăng
+                        Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
+                        hiện xu hướng tăng
                         trưởng.
                       </p>
                     </div>
                   </div>
-                </div>
-                <div class="frame-main">
-                  <div id="chartBasic"></div>
+                  <div style="display: responsive; z-index: 10" id="chartBasic"></div>
                 </div>
               </div>
             </div>
           </div>
-
-
           <div class="col-sm-12">
             <div class="frame-layout-1">
               <div class="frame-layout-2">
                 <div class="title">
                   <h3 style="font-weight: bold;">Thông số cơ bản</h3>
-                  <div class="note">
-                    <i id="i-thong-so" class="fas fa-exclamation"></i>
-                    <div id="note-thong-so" class="note-detail">
-                      <p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
-                        Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
-                        Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể hiện xu hướng tăng
-                        trưởng.
-                      </p>
-                    </div>
-                  </div>
                 </div>
                 <div class="frame-main">
                   <div class="row">
                     <div class="col-lg-2">
                       <div class="btn-format">
-                        <button id="btn-1">Kết quả kinh doanh</button>
+                        <button id="btn-1">Kết quả kd</button>
                       </div>
                     </div>
                     <div class="col-lg-2">
@@ -926,21 +905,6 @@
 
 
   <!-- note -->
-  <script>
-    $(document).ready(function () {
-      $('#i-co-ban').click(function () {
-        $('#note-co-ban').toggle();
-      })
-      $('#i-doanh-nghiep').click(function () {
-        $('#note-doanh-nghiep').toggle();
-      })
-      $('#i-thong-so').click(function () {
-        $('#note-thong-so').toggle();
-      })
-    })
-
-  </script>
-
 
 </body>
 

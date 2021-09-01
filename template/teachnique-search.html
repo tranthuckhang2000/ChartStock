@@ -289,8 +289,8 @@
 										<div class="row">
 											<div class="col-sm-6">
 												<div class="note note-chart">
-													<i id="i-co-ban" class="fas fa-exclamation"></i>
-													<div id="note-co-ban" class="note-detail-2">
+													<i id="i-cham-diem" class="fas fa-exclamation"></i>
+													<div id="note-cham-diem" class="note-detail-2">
 														<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
 															Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
 															Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
@@ -312,10 +312,10 @@
 														</div>
 														<div class="description">
 															<div class="percent">
-																<h4>44%</h4>															
+																<h4 id="percent-chart"></h4>															
 															</div>
 															<div class="status">
-																<h4>Giữ</h4>
+																<h4 id="status-chart">ýedfdsf</h4>
 															</div>
 														</div>
 													</div>
@@ -652,32 +652,34 @@
 		</script>
 
 
-		  <script>
-			$(document).ready(function () {
-			  $('#i-co-ban').click(function () {
-				  console.log('clicked');
-				$('#note-co-ban').toggle();
-			  })
-
-			//   $('#i-doanh-nghiep').click(function () {
-			// 	$('#note-doanh-nghiep').toggle();
-			//   })
-			//   $('#i-thong-so').click(function () {
-			// 	$('#note-thong-so').toggle();
-			//   })
-			})
-		
-		  </script>
 
    <!-- Xu ly chart speed -->
    <script>
-	   let valueDB = 40;
+	   let valueDB = 10;
 	   let value = valueDB / 100 * 180 
 	   $(document).ready(function (){
 		   $('#finnger').css('transform', `rotate(${value}deg)`)
+		   $('#percent-chart').text(valueDB + '%');
 
+	       let statusDes = $('#status-chart').text();
+		   if(valueDB >= 80){
+			$('#status-chart').text('Mua mạnh');
+		   }
+		   else if( valueDB >= 60 && valueDB < 80){
+			$('#status-chart').text('Mua');
+		   }
+		   else if(valueDB >= 40 && valueDB < 60){
+			$('#status-chart').text('Giữ');
+		   }
+		   else if(valueDB >= 20 && valueDB < 40){
+			$('#status-chart').text('Bán');
+		   }
+		   else if(0 <= valueDB < 20){
+			$('#status-chart').text('Bán mạnh');
+		   }
 	   })
 	   
+	//    if(statusDes)	   
    </script>
 		
 
