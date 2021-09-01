@@ -190,17 +190,6 @@
 							<div class="frame-layout-2">
 								<div class="title">
 									<h3 style="font-weight: bold;">Diễn biến giá</h3>
-									<div class="note">
-										<i id="i-co-ban" class="fas fa-exclamation"></i>
-										<div id="note-co-ban" class="note-detail-2">
-											<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
-												Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
-												Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
-												hiện xu hướng tăng
-												trưởng.
-											</p>
-										</div>
-									</div>
 								</div>
 								<div class="frame-main">
 									<div style="margin-bottom: -15px;" class="table-basic">
@@ -217,17 +206,6 @@
 							<div class="frame-layout-2">
 								<div class="title">
 									<h3 style="font-weight: bold;">Diễn biến giao dịch</h3>
-									<div class="note">
-										<i id="i-co-ban" class="fas fa-exclamation"></i>
-										<div id="note-co-ban" class="note-detail-2">
-											<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
-												Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
-												Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
-												hiện xu hướng tăng
-												trưởng.
-											</p>
-										</div>
-									</div>
 								</div>
 								<div class=" frame-main">
 									<div class="table-trans">
@@ -257,45 +235,44 @@
 											</div>
 										</div>
 										<div class="table-above">
-											<div style="border-right: 1px solid #ffffff;" class="table-item">
-												<div class="item">
-													<p>Giá tham chiếu</p>
-													<p>49.00</p>
-												</div>
-												<div class="item">
-													<p>Giá mở cửa</p>
-													<p>49.00</p>
-												</div>
-												<div class="item">
-													<p>Giá cao nhất</p>
-													<p>49.00</p>
-												</div>
-												<div class="item">
-													<p>Giá thấp nhất</p>
-													<p>49.00</p>
-												</div>
-											</div>
 											<div class="table-item">
 												<div class="item">
 													<p>Giá tham chiếu</p>
-													<p>49.00</p>
+													<h5 id="tham-chieu">0.00</h5>
 												</div>
 												<div class="item">
 													<p>Giá mở cửa</p>
-													<p>49.00</p>
+													<h5 id="mo-cua">49.00</h5>
 												</div>
 												<div class="item">
 													<p>Giá cao nhất</p>
-													<p>49.00</p>
+													<h5 id="cao-nhat">42.00</h5>
 												</div>
 												<div class="item">
 													<p>Giá thấp nhất</p>
-													<p>49.00</p>
+													<h5 id="thap-nhat">29.00</h5>
 												</div>
 											</div>
+											<div style="border-left: 1px solid #ffffff;" class="table-item">
+												<div class="item">
+													<p>Khối lượng</p>
+													<h5 >49.00</h5>
+												</div>
+												<div class="item">
+													<p>KLTB ngày</p>
+													<h5 >49.00</h5>
+												</div>
+												<div class="item">
+													<p>Giá cao nhất 52 tuần</p>
+													<h5 id="cao-nhat-52">62.00</h5>
+												</div>
+												<div class="item">
+													<p>Giá thấp nhất 52 tuần</p>
+													<h5 id="thap-nhat-52">19.00</h5>
+												</div>
+											</div>
+
 										</div>
-
-
 									</div>
 								</div>
 							</div>
@@ -306,27 +283,44 @@
 							<div class="frame-layout-2">
 								<div class="title">
 									<h3 style="font-weight: bold;">Chấm điểm kỹ thuật</h3>
-									<div class="note">
-										<i id="i-co-ban" class="fas fa-exclamation"></i>
-										<div id="note-co-ban" class="note-detail-2">
-											<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
-												Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
-												Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
-												hiện xu hướng tăng
-												trưởng.
-											</p>
-										</div>
-									</div>
 								</div>
 								<div class="frame-main">
 									<div style="margin-bottom: -15px;" class="table-basic">
 										<div class="row">
 											<div class="col-sm-6">
-												<div id="chartTechnique"></div>
-											</div>
+												<div class="note note-chart">
+													<i id="i-co-ban" class="fas fa-exclamation"></i>
+													<div id="note-co-ban" class="note-detail-2">
+														<p>Chấm điểm sức mạnh đà tăng của các nhóm ngành
+															Khi đà tăng của nhóm ngành trên 7 điểm là thể hiện xu hướng khỏe.
+															Khi đà tăng của nhóm ngành có điểm vượt trên trung bình 20 phiên là thể
+															hiện xu hướng tăng
+															trưởng.
+														</p>
+													</div>
+												</div>
+												<div style="position: relative; z-index: 10;" id="chartTechnique">
 
+												</div>
+											</div>
 											<div class="col-sm-6">
-												<div id='chartSpeed'></div>
+												<div class="speed-chart">
+													<div class="chart">
+														<img width="300" height="310"src="./image/chart.png" alt="">
+														<div class="finger">
+															<img id="finnger" width="400" src="./image/finger.jpg" alt="">
+														</div>
+														<div class="description">
+															<div class="percent">
+																<h4>44%</h4>															
+															</div>
+															<div class="status">
+																<h4>Giữ</h4>
+															</div>
+														</div>
+													</div>
+												</div>
+
 											</div>
 										</div>
 									</div>
@@ -349,7 +343,7 @@
 					</div>
 				</div>
 			</div>
-
+			
 			<!-- /.container -->
 			<!--footer starts from here-->
 			<footer class="footer">
@@ -433,6 +427,9 @@
 		<script src="js/jquery.appear.js"></script>
 		<script src="js/owl.carousel.min.js"></script>
 		<script src="js/script.js"></script>
+
+		<script src="./js/main.js"></script>
+
 		<script src="./chart/apexcharts.min.js"></script>
 		<!--Libary chart-->
 		<script src="./chart/jsdelivr.min.js"></script>
@@ -522,7 +519,8 @@
 					},
 					labels: ['', '', '', '', '', ''],
 					ring: {
-						size: 10,
+						// do day cua thanh mau
+						size: 30,
 						rules: [
 							{
 								rule: '%v >=0 && %v < 20',
@@ -555,9 +553,9 @@
 					resetTimeout: 1000
 				},
 				series: [{
-					values: [755], // starting value
+					values: [50], // starting value
 					backgroundColor: 'white',
-					indicator: [10, 10, 10, 10, 0.75],
+					indicator: [10, 5, 0, 10, 0.35],
 					animation: {
 						effect: 2,
 						method: 1,
@@ -647,10 +645,41 @@
 				const textFormat = "+" + text;
 				$('#valueTrans').text(textFormat);
 
-				// const value = $('#valueChange').text();
-				// $('#valueChange').text('(' + value + '%)');
+				$('#chartTech').click(function(){
+					console.log('cicked');
+				})
 			})
 		</script>
+
+
+		  <script>
+			$(document).ready(function () {
+			  $('#i-co-ban').click(function () {
+				  console.log('clicked');
+				$('#note-co-ban').toggle();
+			  })
+
+			//   $('#i-doanh-nghiep').click(function () {
+			// 	$('#note-doanh-nghiep').toggle();
+			//   })
+			//   $('#i-thong-so').click(function () {
+			// 	$('#note-thong-so').toggle();
+			//   })
+			})
+		
+		  </script>
+
+   <!-- Xu ly chart speed -->
+   <script>
+	   let valueDB = 40;
+	   let value = valueDB / 100 * 180 
+	   $(document).ready(function (){
+		   $('#finnger').css('transform', `rotate(${value}deg)`)
+
+	   })
+	   
+   </script>
+		
 
 </body>
 

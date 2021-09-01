@@ -3,6 +3,90 @@ body {
   font-family: Roboto;
 }
 
+.note.note-chart {
+  margin: auto 0;
+  padding-left: 10px;
+  position: relative;
+  top: 7%;
+  z-index: 100;
+}
+
+.note.note-chart i {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  padding-top: 5px;
+  border: 1px solid;
+  border-radius: 20%;
+  position: relative;
+  left: 40%;
+}
+
+.note.note-chart .note-detail {
+  background-color: #e8e8e8;
+  color: black;
+  text-align: left;
+  width: 200px;
+  position: absolute;
+  top: 50px;
+  z-index: 50;
+  padding: 5px;
+  border: 3px solid #fa9b10;
+  border-radius: 10%;
+}
+
+.note.note-chart .note-detail-2 {
+  background-color: #e8e8e8;
+  color: black;
+  text-align: left;
+  width: 200px;
+  position: absolute;
+  z-index: 50;
+  padding: 5px;
+  border: 3px solid #fa9b10;
+  border-radius: 10%;
+  display: none;
+  right: 0px;
+}
+
+.speed-chart .chart {
+  position: relative;
+  top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.speed-chart .finger {
+  position: absolute;
+  bottom: 43%;
+}
+
+.speed-chart .description {
+  position: absolute;
+  bottom: 20%;
+}
+
+.speed-chart .description .percent {
+  background-color: #4eabd7;
+  padding: 5px 30px;
+  border-radius: 12px;
+  color: ffff;
+}
+
+.speed-chart .description .status {
+  color: #4eabd7;
+  text-transform: uppercase;
+  margin-top: 5%;
+}
+
+.speed-chart .description .status h4 {
+  font-weight: 600;
+}
+
 a.login {
   color: #ffffff;
 }
@@ -132,6 +216,10 @@ a.login:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.table-trans .table-above .table-item .item p {
+  padding: auto;
 }
 
 .select-logup {
@@ -819,6 +907,10 @@ a.login:hover {
             justify-content: space-between;
     margin: 25px 10px 5px 10px;
   }
+  .table-trans .table-above .table-item .item p:nth-child(even) {
+    front-size: 25px;
+    color: red;
+  }
   .nameCompany {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1071,6 +1163,9 @@ a.login:hover {
   .table-trans .table-above .table-item .item p {
     font-size: 10px;
   }
+  .table-trans .table-above .table-item .item h5 {
+    font-size: 10px;
+  }
   .nameCompany {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1205,6 +1300,9 @@ a.login:hover {
   }
   .table-trans .table-above .table-item .item p {
     font-size: 10px;
+  }
+  .table-trans .table-above .table-item .item h5 {
+    font-size: 12px;
   }
   .nameCompany {
     display: -webkit-box;

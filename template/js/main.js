@@ -38,4 +38,31 @@ $(document).ready(function(){
 
     // Format Name Company
     $('#nameCompany').text('(' + $('#nameCompany').text() + ')');
+
+
+    function compareChangeColorText(c1){
+        let v1 = $('#mo-cua').text();
+        let v2 = $(`#${c1}`).text();
+        if(v1 > v2){
+            $(`#${c1}`).css('color', 'red');
+
+        }
+        if(v1 < v2){
+            $(`#${c1}`).css('color', 'green');
+        }
+    }
+    compareChangeColorText('tham-chieu');
+    compareChangeColorText('cao-nhat');
+    compareChangeColorText('thap-nhat');
+    compareChangeColorText('cao-nhat-52');
+    compareChangeColorText('thap-nhat-52');
+
+    $('#i-chart-technique').click(function(){
+        console.log('cliked');
+    })
+
+
+
+
+
 })

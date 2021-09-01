@@ -357,7 +357,7 @@ button.btn-secondary:hover{
 	font-size: 18px;
 }
 .about-main p{
-	font-size: 15px;
+	/* font-size: 15px; */
 	text-transform: capitalize;
 }
 .about-main ul{
