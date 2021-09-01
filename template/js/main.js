@@ -73,8 +73,12 @@ $(document).ready(function(){
           $('#note-thong-so').toggle();
         })
         $('#i-cham-diem').click(function () {
-            console.log('clicked');
+            // console.log('clicked');
           $('#note-cham-diem').toggle();
+        })
+        $('#i-co-tuc').click(function () {
+            // console.log('clicked');
+          $('#note-co-tuc').toggle();
         })
       })
 

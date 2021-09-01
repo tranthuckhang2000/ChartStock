@@ -39,7 +39,7 @@ body {
   background-color: #e8e8e8;
   color: black;
   text-align: left;
-  width: 200px;
+  width: 30%;
   position: absolute;
   z-index: 50;
   padding: 5px;
@@ -47,6 +47,178 @@ body {
   border-radius: 10%;
   display: none;
   right: 0px;
+}
+
+.note-item-chart.note-item-1 {
+  position: absolute;
+  left: 44.4%;
+  top: 2%;
+}
+
+.note-item-chart.note-item-1 p {
+  background-color: #e8e8e8;
+  color: black;
+  text-align: left;
+  width: 200px;
+  position: absolute;
+  z-index: 150;
+  padding: 5px;
+  border: 3px solid #fa9b10;
+  border-radius: 10%;
+  display: none;
+}
+
+.note-item-chart.note-item-1 i {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  padding-top: 5px;
+  border: 1px solid;
+  border-radius: 20%;
+  position: relative;
+  z-index: 100;
+}
+
+.note-item-chart.note-item-1 p {
+  position: absolute;
+  left: -335%;
+}
+
+.note-item-chart.note-item-2 {
+  position: absolute;
+  left: 11%;
+  top: 28%;
+}
+
+.note-item-chart.note-item-2 p {
+  background-color: #e8e8e8;
+  color: black;
+  text-align: left;
+  width: 200px;
+  position: absolute;
+  z-index: 150;
+  padding: 5px;
+  border: 3px solid #fa9b10;
+  border-radius: 10%;
+  display: none;
+}
+
+.note-item-chart.note-item-2 i {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  padding-top: 5px;
+  border: 1px solid;
+  border-radius: 20%;
+  position: relative;
+  z-index: 100;
+}
+
+.note-item-chart.note-item-3 {
+  position: absolute;
+  right: 21%;
+  top: 28%;
+}
+
+.note-item-chart.note-item-3 p {
+  background-color: #e8e8e8;
+  color: black;
+  text-align: left;
+  width: 200px;
+  position: absolute;
+  z-index: 150;
+  padding: 5px;
+  border: 3px solid #fa9b10;
+  border-radius: 10%;
+  display: none;
+}
+
+.note-item-chart.note-item-3 i {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  padding-top: 5px;
+  border: 1px solid;
+  border-radius: 20%;
+  position: relative;
+  z-index: 100;
+}
+
+.note-item-chart.note-item-3 p {
+  position: absolute;
+  right: 0;
+}
+
+.note-item-chart.note-item-4 {
+  position: absolute;
+  right: 27%;
+  top: 68%;
+}
+
+.note-item-chart.note-item-4 p {
+  background-color: #e8e8e8;
+  color: black;
+  text-align: left;
+  width: 200px;
+  position: absolute;
+  z-index: 150;
+  padding: 5px;
+  border: 3px solid #fa9b10;
+  border-radius: 10%;
+  display: none;
+}
+
+.note-item-chart.note-item-4 i {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  padding-top: 5px;
+  border: 1px solid;
+  border-radius: 20%;
+  position: relative;
+  z-index: 100;
+}
+
+.note-item-chart.note-item-4 p {
+  position: absolute;
+  right: 0;
+  bottom: 90%;
+}
+
+.note-item-chart.note-item-5 {
+  position: absolute;
+  left: 24%;
+  top: 68%;
+}
+
+.note-item-chart.note-item-5 p {
+  background-color: #e8e8e8;
+  color: black;
+  text-align: left;
+  width: 200px;
+  position: absolute;
+  z-index: 150;
+  padding: 5px;
+  border: 3px solid #fa9b10;
+  border-radius: 10%;
+  display: none;
+}
+
+.note-item-chart.note-item-5 i {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  padding-top: 5px;
+  border: 1px solid;
+  border-radius: 20%;
+  position: relative;
+  z-index: 100;
+}
+
+.note-item-chart.note-item-5 p {
+  position: absolute;
+  left: 0;
+  bottom: 90%;
 }
 
 .speed-chart .chart {

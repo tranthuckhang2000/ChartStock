@@ -27,7 +27,6 @@ $colorContent: #ffffff;
     border-radius: 20%;
     position: relative;
       left: 40%;
-
   }
 
   .note-detail {
@@ -53,7 +52,7 @@ $colorContent: #ffffff;
     background-color: #e8e8e8;
     color: black;
     text-align: left;
-    width: 200px;
+    width: 30%;
     position: absolute;
     z-index: 50;
     padding: 5px;
@@ -65,6 +64,95 @@ $colorContent: #ffffff;
     // text-transform:lowercase;
   }
 }
+  @mixin note-detail{
+    position: absolute;
+    p{
+    background-color: #e8e8e8;
+    color: black;
+    text-align: left;
+    width: 200px;
+    position: absolute;
+    z-index: 150;
+    padding: 5px;
+    border: 3px solid #fa9b10;
+    border-radius: 10%;
+    display: none;
+    // right: 0px;
+    }
+    i{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    padding-top: 5px;
+    border: 1px solid;
+    border-radius: 20%;
+    position: relative;
+    // left: 40%;
+    z-index: 100;
+    }
+  }
+.note-item-chart.note-item-1{
+  @include note-detail;
+  left: 44.4%;
+  top: 2%;
+  p{
+    position: absolute;
+    left: -335%;
+   }
+  
+  }
+  .note-item-chart.note-item-2{
+  @include note-detail;
+  left: 11%;
+  top: 28%;
+  p{
+    // position: absolute;
+    // left: -335%;
+   }
+  
+  }
+  .note-item-chart.note-item-3{
+  @include note-detail;
+  right: 21%;
+  top: 28%;
+  p{
+    position: absolute;
+    right: 0;
+    // left: -335%;
+    // display: none;
+   }
+  
+  }
+  .note-item-chart.note-item-4{
+  @include note-detail;
+  right: 27%;
+  top: 68%;
+  p{
+    position: absolute;
+    right: 0;
+    bottom: 90%;
+    // left: -335%;
+    // display: none;
+   }
+  
+  }
+.note-item-chart.note-item-5{
+  @include note-detail;
+  // right: 27%;
+  left: 24%;
+  top: 68%;
+  p{
+    position: absolute;
+    left: 0;
+    bottom: 90%;
+    // left: -335%;
+    // display: none;
+   }
+  
+  }
+
+
+ 
 
 .speed-chart{
   .chart{
